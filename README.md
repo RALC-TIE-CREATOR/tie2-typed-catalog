@@ -6,6 +6,8 @@ A prototype for a **typed, machine-checkable catalog of physical quantities**. I
 
 **Repository:** https://github.com/RALC-TIE-CREATOR/tie2-typed-catalog
 
+**Forbidden exponents:** `T²`, `T⁻²`, `L⁴`, `L⁻⁴`, `R²`, `R⁻²`, `V²`, `Wb²`, `Gr²`, `V⁻²`, `Wb⁻²`, `Gr⁻²`, and higher. Allowed: `L ∈ [-3,3]`; `T,R,V,Wb,Gr ∈ {-1,0,1}`.
+
 [Español](README.es.md)
 
 ## Why
@@ -81,4 +83,5 @@ This repository supports a Letter of Intent for Anthropic's AI for Science progr
 ## Citation
 
 See `CITATION.cff`.
+
 

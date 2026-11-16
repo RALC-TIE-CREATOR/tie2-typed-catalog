@@ -6,6 +6,8 @@ Prototipo de un **catálogo tipado y verificable por máquina de cantidades fís
 
 **Repositorio:** https://github.com/RALC-TIE-CREATOR/tie2-typed-catalog
 
+**Exponentes prohibidos:** `T²`, `T⁻²`, `L⁴`, `L⁻⁴`, `R²`, `R⁻²`, `V²`, `Wb²`, `Gr²`, `V⁻²`, `Wb⁻²`, `Gr⁻²` y superiores. Permitidos: `L ∈ [-3,3]`; `T,R,V,Wb,Gr ∈ {-1,0,1}`.
+
 [English](README.md)
 
 ## Por qué
@@ -81,4 +83,5 @@ Este repositorio respalda una carta de intención para el programa AI for Scienc
 ## Cita
 
 Ver `CITATION.cff`.
+
 
