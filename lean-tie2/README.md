@@ -32,4 +32,4 @@ Resultado esperado:
 
 - Las 254 entradas están codificadas a nivel dimensional.
 - R-01–R-12 parcialmente codificadas: falta la regla de suma/tipo/clase.
-- No hay benchmark todavía.
+- Benchmark de 340 enunciados en `../benchmark/`.

@@ -31,4 +31,4 @@ A quantity has a dimension vector `(L,T,R,V,Wb,Gr)`:
 
 - 254 of 254 entries are encoded at the dimensional level.
 - R-01–R-12 are partially encoded: dimensional admissibility is in Lean; sum/type/class rules are the next step.
-- No benchmark yet.
+- Benchmark of 340 statements; evaluation pending.

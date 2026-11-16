@@ -55,6 +55,23 @@ Expected: `TIE2.Dimensions`, `TIE2.Catalog`, `TIE2.Examples` compile; `catalog25
 
 Each entry declares: id, level, expression, unit, dimension vector `L,T,R,V,Wb,Gr`, kind, tensor type, status, source, and note.
 
+## Benchmark
+
+340 bilingual statements in `benchmark/benchmark_340.jsonl`:
+
+- 195 invalid
+- 115 valid
+- 20 candidate
+- 10 process
+
+Evaluate predictions:
+
+```bash
+python benchmark/evaluate.py --predictions predictions.jsonl
+```
+
+See `benchmark/README.md`.
+
 ## Verification
 
 - JSON: 254 entries.

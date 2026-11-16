@@ -1,4 +1,4 @@
-# Letter of Intent — Anthropic AI for Science — v2.0
+# Letter of Intent — Anthropic AI for Science — v2.1
 
 **Date:** 2026-11-16
 **Applicant:** Rubén Antonio Lecona Curto (R@LC)
@@ -29,6 +29,7 @@ This project formalizes and verifies that catalog in **Lean 4**, using Claude as
 | Rejection tests | `T⁻²`, `L⁴`, `R²` → `false` |
 | Lean catalog | `catalog254.length = 254`; all entries admissible |
 | Build | `lake build` — 6 jobs, exit 0 |
+| Benchmark | 340 bilingual statements; evaluator included |
 
 The prototype shows that the grammar is formalizable and that the checker rejects forbidden units.
 
@@ -80,7 +81,7 @@ The prototype shows that the grammar is formalizable and that the checker reject
 |---|---|
 | 1 | R-01–R-06; 254 entries (already started) |
 | 2 | R-07–R-12; type/class rules |
-| 3 | Initial benchmark of 200–500 statements |
+| 3 | Benchmark of 340 statements (done) |
 | 4 | Claude-assisted proofs; expanded benchmark |
 | 5 | Preprint and external review |
 | 6 | Final repository, CI, and publication submission |
@@ -139,3 +140,4 @@ The prototype shows that the grammar is formalizable and that the checker reject
 - **v0.1 (2026-11-16):** initial draft.
 - **v1.0 (2026-11-16):** Lean prototype of 50 entries compiled; metrics and six-month plan.
 - **v2.0 (2026-11-16):** full 254-entry catalog encoded and compiled; public repository.
+- **v2.1 (2026-11-16):** 340-statement bilingual benchmark; evaluator included.

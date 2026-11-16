@@ -55,6 +55,23 @@ Esperado: `TIE2.Dimensions`, `TIE2.Catalog`, `TIE2.Examples` compilan; `catalog2
 
 Cada entrada declara: id, nivel, expresión, unidad, vector `L,T,R,V,Wb,Gr`, tipo, clase, estatus, fuente y nota.
 
+## Benchmark
+
+340 enunciados bilingües en `benchmark/benchmark_340.jsonl`:
+
+- 195 inválidos
+- 115 válidos
+- 20 candidatos
+- 10 procesos
+
+Evaluar predicciones:
+
+```bash
+python benchmark/evaluate.py --predictions predictions.jsonl
+```
+
+Ver `benchmark/README.es.md`.
+
 ## Verificación
 
 - JSON: 254 entradas.

@@ -31,4 +31,4 @@ Una cantidad tiene un vector `(L,T,R,V,Wb,Gr)`:
 
 - 254 de 254 entradas codificadas a nivel dimensional.
 - R-01–R-12 parcialmente codificadas: la admisibilidad dimensional está en Lean; las reglas de suma/tipo/clase son el siguiente paso.
-- Todavía no hay benchmark.
+- Benchmark de 340 enunciados; evaluación pendiente.
