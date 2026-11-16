@@ -45,8 +45,11 @@ python benchmark/evaluate.py --predictions predictions.jsonl
 
 El evaluador reporta precisión global, precisión por categoría, matriz de confusión, IDs faltantes e IDs extra.
 
+Para otro LLM: ver `EXTERNAL_LLM.md`, `prompt_external.txt` y `make_batches.py`.
+
 ## Advertencias
 
 - Sintético, generado por plantillas; revisión humana pendiente.
 - `lean_checkable` marca los casos cuya admisibilidad dimensional se puede verificar directamente; las sumas y los casos de tipo/clase requieren el conjunto completo de reglas.
 - No presentar este benchmark como evidencia empírica de TIE 2.
+

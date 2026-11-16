@@ -45,8 +45,11 @@ python benchmark/evaluate.py --predictions predictions.jsonl
 
 The evaluator reports overall accuracy, per-category accuracy, confusion matrix, missing IDs, and extra IDs.
 
+For another LLM: see `EXTERNAL_LLM.md`, `prompt_external.txt`, and `make_batches.py`.
+
 ## Caveats
 
 - Synthetic, template-generated; human review is pending.
 - `lean_checkable` marks cases whose dimensional admissibility can be checked directly; sums and type/class cases require the full rule set.
 - Do not present this benchmark as empirical evidence for TIE 2.
+
