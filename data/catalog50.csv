@@ -1,0 +1,51 @@
+id,level,expression,unit,l,t,r,v,wb,gr,kind,tensor,status,source,note
+L1-01,1,L,m,1,0,0,0,0,0,primitive,scalar,standard,R3,longitud
+L1-02,1,L^2,m^2,2,0,0,0,0,0,primitive,scalar,standard,R3,area
+L1-03,1,L^3,m^3,3,0,0,0,0,0,primitive,scalar,standard,R3,volumen
+L1-04,1,L^-1,1/m,-1,0,0,0,0,0,primitive,scalar,standard,R3,numero de onda/curvatura
+L1-05,1,L^-2,1/m^2,-2,0,0,0,0,0,primitive,scalar,standard,R3,densidad superficial
+L1-06,1,L^-3,1/m^3,-3,0,0,0,0,0,primitive,scalar,standard,R3,densidad numerica
+L1-07,1,T,s,0,1,0,0,0,0,primitive,scalar,standard,R3,duracion
+L1-08,1,T^-1,1/s,0,-1,0,0,0,0,primitive,scalar,standard,R3,frecuencia
+L1-09,1,R,rad,0,0,1,0,0,0,primitive,scalar,standard,R3,angulo/fase
+L1-10,1,R^-1,1/rad,0,0,-1,0,0,0,primitive,scalar,candidate,R3,inverso de fase
+L1-11,1,V,V,0,0,0,1,0,0,primitive,scalar,standard,R3,tension electrica
+L1-12,1,Wb,Wb,0,0,0,0,1,0,primitive,scalar,standard,R3,torsion magnetica
+L1-13,1,Gr,Gr,0,0,0,0,0,1,primitive,scalar,standard,R3,tension gravitatoria
+L1-14,1,V^-1,1/V,0,0,0,-1,0,0,primitive,scalar,candidate,R3,inverso de tension
+L1-15,1,Wb^-1,1/Wb,0,0,0,0,-1,0,primitive,scalar,candidate,R3,inverso de torsion
+L1-16,1,Gr^-1,1/Gr,0,0,0,0,0,-1,primitive,scalar,candidate,R3,inverso de tension gravitatoria
+ST-01,2,L T^-1,m/s,1,-1,0,0,0,0,quantity,vector,standard,R4,velocidad
+ST-02,2,L^2 T^-1,m^2/s,2,-1,0,0,0,0,quantity,scalar,standard,R4,difusion/viscosidad cinematica
+ST-03,2,L^3 T^-1,m^3/s,3,-1,0,0,0,0,quantity,scalar,standard,R4,caudal
+ST-07,2,L T,m*s,1,1,0,0,0,0,quantity,scalar,standard,R4,absement
+ST-10,2,L^-1 T,s/m,-1,1,0,0,0,0,quantity,scalar,standard,R4,lentitud
+SR-01,2,L R,m*rad,1,0,1,0,0,0,quantity,scalar,etiqueta,R4,arco
+SR-04,2,L^-1 R,rad/m,-1,0,1,0,0,0,quantity,scalar,standard,R4,curvatura
+SR-07,2,L R^-1,m/rad,1,0,-1,0,0,0,quantity,scalar,standard,R4,radio
+SR-08,2,L^2 R^-1,m^2/rad,2,0,-1,0,0,0,quantity,scalar,standard,R4,area por angulo
+TR-01,2,T^-1 R,rad/s,0,-1,1,0,0,0,quantity,pseudovector,standard,R4,velocidad angular
+TR-03,2,T R,s*rad,0,1,1,0,0,0,quantity,scalar,standard,R4,fase acumulada
+TR-04,2,T R^-1,s/rad,0,1,-1,0,0,0,quantity,scalar,standard,R4,periodo por radian
+STR-01,3,L T^-1 R,m*rad/s,1,-1,1,0,0,0,quantity,vector,etiqueta,R4,velocidad tangencial
+STR-04,3,L^-1 T^-1 R,rad/(m*s),-1,-1,1,0,0,0,quantity,pseudovector,standard,R4,gradiente de velocidad angular
+R5-VL-1,2,V L,V*m,1,0,0,1,0,0,quantity,scalar,standard,R5,flujo electrico
+R5-VL-4,2,V L^-1,V/m,-1,0,0,1,0,0,quantity,vector,standard,R5,campo electrico
+R5-VT-1,2,V T^-1,V/s,0,-1,0,1,0,0,quantity,scalar,standard,R5,tasa de tension
+R5-VT-2,2,V T,V*s = Wb,0,1,0,1,0,0,quantity,scalar,bridge,R5,flujo magnetico
+R5-WbL-5,2,Wb L^-2,Wb/m^2 = T,-2,0,0,0,1,0,quantity,pseudovector,standard,R5,campo magnetico
+R5-WbT-1,2,Wb T^-1,Wb/s = V,0,-1,0,0,1,0,quantity,scalar,bridge,R5,fuerza electromotriz
+R5-GrL-4,2,Gr L^-1,Gr/m,-1,0,0,0,0,1,quantity,vector,standard,R5,campo gravitatorio
+R5-04,3,V L^-1 T^-1,V/(m*s),-1,-1,0,1,0,0,quantity,vector,standard,R5,tasa de campo electrico
+R5-17,3,Wb L^-2 T^-1,Wb/(m^2*s) = T/s,-2,-1,0,0,1,0,quantity,pseudovector,standard,R5,tasa de campo magnetico
+R5-28,3,Gr L^-1 T^-1,Gr/(m*s),-1,-1,0,0,0,1,quantity,vector,standard,R5,tasa de campo gravitatorio
+R6-VR-1,2,V R^-1,V/rad,0,0,-1,1,0,0,candidate,scalar,candidate,R6,tension por radian
+R6-VR-2,2,V R,V*rad,0,0,1,1,0,0,candidate,scalar,candidate,R6,tension-fase
+R6-WbR-1,2,Wb R^-1,Wb/rad,0,0,-1,0,1,0,candidate,scalar,candidate,R6,flujo por radian
+R6-WbR-2,2,Wb R,Wb*rad,0,0,1,0,1,0,candidate,scalar,candidate,R6,flujo-fase
+R6-GrR-1,2,Gr R^-1,Gr/rad,0,0,-1,0,0,1,candidate,scalar,candidate,R6,potencial por radian
+R6-GrR-2,2,Gr R,Gr*rad,0,0,1,0,0,1,candidate,scalar,candidate,R6,potencial-fase
+R7-08,3,V L^-1 R,V*rad/m,-1,0,1,1,0,0,candidate,scalar,candidate,R7,campo electrico-fase
+R8-14,4,V L^-1 T^-1 R,V/(m*s)*rad,-1,-1,1,1,0,0,candidate,vector,candidate,R8,tasa de campo electrico con fase
+R8-42,4,Wb L^-2 T^-1 R,Wb/(m^2*s)*rad,-2,-1,1,0,1,0,candidate,pseudovector,candidate,R8,tasa de campo magnetico con fase
+R8-62,4,Gr L^-1 T^-1 R,Gr/(m*s)*rad,-1,-1,1,0,0,1,candidate,vector,candidate,R8,tasa de campo gravitatorio con fase

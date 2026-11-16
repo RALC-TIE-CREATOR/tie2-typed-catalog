@@ -1,0 +1,952 @@
+[
+  {
+    "id": "L1-01",
+    "level": 1,
+    "expression": "L",
+    "unit": "m",
+    "dim": {
+      "l": 1,
+      "t": 0,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "primitive",
+    "tensor": "scalar",
+    "status": "standard",
+    "source": "R3",
+    "note": "longitud"
+  },
+  {
+    "id": "L1-02",
+    "level": 1,
+    "expression": "L^2",
+    "unit": "m^2",
+    "dim": {
+      "l": 2,
+      "t": 0,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "primitive",
+    "tensor": "scalar",
+    "status": "standard",
+    "source": "R3",
+    "note": "area"
+  },
+  {
+    "id": "L1-03",
+    "level": 1,
+    "expression": "L^3",
+    "unit": "m^3",
+    "dim": {
+      "l": 3,
+      "t": 0,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "primitive",
+    "tensor": "scalar",
+    "status": "standard",
+    "source": "R3",
+    "note": "volumen"
+  },
+  {
+    "id": "L1-04",
+    "level": 1,
+    "expression": "L^-1",
+    "unit": "1/m",
+    "dim": {
+      "l": -1,
+      "t": 0,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "primitive",
+    "tensor": "scalar",
+    "status": "standard",
+    "source": "R3",
+    "note": "numero de onda/curvatura"
+  },
+  {
+    "id": "L1-05",
+    "level": 1,
+    "expression": "L^-2",
+    "unit": "1/m^2",
+    "dim": {
+      "l": -2,
+      "t": 0,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "primitive",
+    "tensor": "scalar",
+    "status": "standard",
+    "source": "R3",
+    "note": "densidad superficial"
+  },
+  {
+    "id": "L1-06",
+    "level": 1,
+    "expression": "L^-3",
+    "unit": "1/m^3",
+    "dim": {
+      "l": -3,
+      "t": 0,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "primitive",
+    "tensor": "scalar",
+    "status": "standard",
+    "source": "R3",
+    "note": "densidad numerica"
+  },
+  {
+    "id": "L1-07",
+    "level": 1,
+    "expression": "T",
+    "unit": "s",
+    "dim": {
+      "l": 0,
+      "t": 1,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "primitive",
+    "tensor": "scalar",
+    "status": "standard",
+    "source": "R3",
+    "note": "duracion"
+  },
+  {
+    "id": "L1-08",
+    "level": 1,
+    "expression": "T^-1",
+    "unit": "1/s",
+    "dim": {
+      "l": 0,
+      "t": -1,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "primitive",
+    "tensor": "scalar",
+    "status": "standard",
+    "source": "R3",
+    "note": "frecuencia"
+  },
+  {
+    "id": "L1-09",
+    "level": 1,
+    "expression": "R",
+    "unit": "rad",
+    "dim": {
+      "l": 0,
+      "t": 0,
+      "r": 1,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "primitive",
+    "tensor": "scalar",
+    "status": "standard",
+    "source": "R3",
+    "note": "angulo/fase"
+  },
+  {
+    "id": "L1-10",
+    "level": 1,
+    "expression": "R^-1",
+    "unit": "1/rad",
+    "dim": {
+      "l": 0,
+      "t": 0,
+      "r": -1,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "primitive",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R3",
+    "note": "inverso de fase"
+  },
+  {
+    "id": "L1-11",
+    "level": 1,
+    "expression": "V",
+    "unit": "V",
+    "dim": {
+      "l": 0,
+      "t": 0,
+      "r": 0,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "primitive",
+    "tensor": "scalar",
+    "status": "standard",
+    "source": "R3",
+    "note": "tension electrica"
+  },
+  {
+    "id": "L1-12",
+    "level": 1,
+    "expression": "Wb",
+    "unit": "Wb",
+    "dim": {
+      "l": 0,
+      "t": 0,
+      "r": 0,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "primitive",
+    "tensor": "scalar",
+    "status": "standard",
+    "source": "R3",
+    "note": "torsion magnetica"
+  },
+  {
+    "id": "L1-13",
+    "level": 1,
+    "expression": "Gr",
+    "unit": "Gr",
+    "dim": {
+      "l": 0,
+      "t": 0,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "primitive",
+    "tensor": "scalar",
+    "status": "standard",
+    "source": "R3",
+    "note": "tension gravitatoria"
+  },
+  {
+    "id": "L1-14",
+    "level": 1,
+    "expression": "V^-1",
+    "unit": "1/V",
+    "dim": {
+      "l": 0,
+      "t": 0,
+      "r": 0,
+      "v": -1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "primitive",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R3",
+    "note": "inverso de tension"
+  },
+  {
+    "id": "L1-15",
+    "level": 1,
+    "expression": "Wb^-1",
+    "unit": "1/Wb",
+    "dim": {
+      "l": 0,
+      "t": 0,
+      "r": 0,
+      "v": 0,
+      "wb": -1,
+      "gr": 0
+    },
+    "kind": "primitive",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R3",
+    "note": "inverso de torsion"
+  },
+  {
+    "id": "L1-16",
+    "level": 1,
+    "expression": "Gr^-1",
+    "unit": "1/Gr",
+    "dim": {
+      "l": 0,
+      "t": 0,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": -1
+    },
+    "kind": "primitive",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R3",
+    "note": "inverso de tension gravitatoria"
+  },
+  {
+    "id": "ST-01",
+    "level": 2,
+    "expression": "L T^-1",
+    "unit": "m/s",
+    "dim": {
+      "l": 1,
+      "t": -1,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "vector",
+    "status": "standard",
+    "source": "R4",
+    "note": "velocidad"
+  },
+  {
+    "id": "ST-02",
+    "level": 2,
+    "expression": "L^2 T^-1",
+    "unit": "m^2/s",
+    "dim": {
+      "l": 2,
+      "t": -1,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "standard",
+    "source": "R4",
+    "note": "difusion/viscosidad cinematica"
+  },
+  {
+    "id": "ST-03",
+    "level": 2,
+    "expression": "L^3 T^-1",
+    "unit": "m^3/s",
+    "dim": {
+      "l": 3,
+      "t": -1,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "standard",
+    "source": "R4",
+    "note": "caudal"
+  },
+  {
+    "id": "ST-07",
+    "level": 2,
+    "expression": "L T",
+    "unit": "m*s",
+    "dim": {
+      "l": 1,
+      "t": 1,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "standard",
+    "source": "R4",
+    "note": "absement"
+  },
+  {
+    "id": "ST-10",
+    "level": 2,
+    "expression": "L^-1 T",
+    "unit": "s/m",
+    "dim": {
+      "l": -1,
+      "t": 1,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "standard",
+    "source": "R4",
+    "note": "lentitud"
+  },
+  {
+    "id": "SR-01",
+    "level": 2,
+    "expression": "L R",
+    "unit": "m*rad",
+    "dim": {
+      "l": 1,
+      "t": 0,
+      "r": 1,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "etiqueta",
+    "source": "R4",
+    "note": "arco"
+  },
+  {
+    "id": "SR-04",
+    "level": 2,
+    "expression": "L^-1 R",
+    "unit": "rad/m",
+    "dim": {
+      "l": -1,
+      "t": 0,
+      "r": 1,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "standard",
+    "source": "R4",
+    "note": "curvatura"
+  },
+  {
+    "id": "SR-07",
+    "level": 2,
+    "expression": "L R^-1",
+    "unit": "m/rad",
+    "dim": {
+      "l": 1,
+      "t": 0,
+      "r": -1,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "standard",
+    "source": "R4",
+    "note": "radio"
+  },
+  {
+    "id": "SR-08",
+    "level": 2,
+    "expression": "L^2 R^-1",
+    "unit": "m^2/rad",
+    "dim": {
+      "l": 2,
+      "t": 0,
+      "r": -1,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "standard",
+    "source": "R4",
+    "note": "area por angulo"
+  },
+  {
+    "id": "TR-01",
+    "level": 2,
+    "expression": "T^-1 R",
+    "unit": "rad/s",
+    "dim": {
+      "l": 0,
+      "t": -1,
+      "r": 1,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "pseudovector",
+    "status": "standard",
+    "source": "R4",
+    "note": "velocidad angular"
+  },
+  {
+    "id": "TR-03",
+    "level": 2,
+    "expression": "T R",
+    "unit": "s*rad",
+    "dim": {
+      "l": 0,
+      "t": 1,
+      "r": 1,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "standard",
+    "source": "R4",
+    "note": "fase acumulada"
+  },
+  {
+    "id": "TR-04",
+    "level": 2,
+    "expression": "T R^-1",
+    "unit": "s/rad",
+    "dim": {
+      "l": 0,
+      "t": 1,
+      "r": -1,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "standard",
+    "source": "R4",
+    "note": "periodo por radian"
+  },
+  {
+    "id": "STR-01",
+    "level": 3,
+    "expression": "L T^-1 R",
+    "unit": "m*rad/s",
+    "dim": {
+      "l": 1,
+      "t": -1,
+      "r": 1,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "vector",
+    "status": "etiqueta",
+    "source": "R4",
+    "note": "velocidad tangencial"
+  },
+  {
+    "id": "STR-04",
+    "level": 3,
+    "expression": "L^-1 T^-1 R",
+    "unit": "rad/(m*s)",
+    "dim": {
+      "l": -1,
+      "t": -1,
+      "r": 1,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "pseudovector",
+    "status": "standard",
+    "source": "R4",
+    "note": "gradiente de velocidad angular"
+  },
+  {
+    "id": "R5-VL-1",
+    "level": 2,
+    "expression": "V L",
+    "unit": "V*m",
+    "dim": {
+      "l": 1,
+      "t": 0,
+      "r": 0,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "standard",
+    "source": "R5",
+    "note": "flujo electrico"
+  },
+  {
+    "id": "R5-VL-4",
+    "level": 2,
+    "expression": "V L^-1",
+    "unit": "V/m",
+    "dim": {
+      "l": -1,
+      "t": 0,
+      "r": 0,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "vector",
+    "status": "standard",
+    "source": "R5",
+    "note": "campo electrico"
+  },
+  {
+    "id": "R5-VT-1",
+    "level": 2,
+    "expression": "V T^-1",
+    "unit": "V/s",
+    "dim": {
+      "l": 0,
+      "t": -1,
+      "r": 0,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "standard",
+    "source": "R5",
+    "note": "tasa de tension"
+  },
+  {
+    "id": "R5-VT-2",
+    "level": 2,
+    "expression": "V T",
+    "unit": "V*s = Wb",
+    "dim": {
+      "l": 0,
+      "t": 1,
+      "r": 0,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "bridge",
+    "source": "R5",
+    "note": "flujo magnetico"
+  },
+  {
+    "id": "R5-WbL-5",
+    "level": 2,
+    "expression": "Wb L^-2",
+    "unit": "Wb/m^2 = T",
+    "dim": {
+      "l": -2,
+      "t": 0,
+      "r": 0,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "pseudovector",
+    "status": "standard",
+    "source": "R5",
+    "note": "campo magnetico"
+  },
+  {
+    "id": "R5-WbT-1",
+    "level": 2,
+    "expression": "Wb T^-1",
+    "unit": "Wb/s = V",
+    "dim": {
+      "l": 0,
+      "t": -1,
+      "r": 0,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "bridge",
+    "source": "R5",
+    "note": "fuerza electromotriz"
+  },
+  {
+    "id": "R5-GrL-4",
+    "level": 2,
+    "expression": "Gr L^-1",
+    "unit": "Gr/m",
+    "dim": {
+      "l": -1,
+      "t": 0,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "quantity",
+    "tensor": "vector",
+    "status": "standard",
+    "source": "R5",
+    "note": "campo gravitatorio"
+  },
+  {
+    "id": "R5-04",
+    "level": 3,
+    "expression": "V L^-1 T^-1",
+    "unit": "V/(m*s)",
+    "dim": {
+      "l": -1,
+      "t": -1,
+      "r": 0,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "vector",
+    "status": "standard",
+    "source": "R5",
+    "note": "tasa de campo electrico"
+  },
+  {
+    "id": "R5-17",
+    "level": 3,
+    "expression": "Wb L^-2 T^-1",
+    "unit": "Wb/(m^2*s) = T/s",
+    "dim": {
+      "l": -2,
+      "t": -1,
+      "r": 0,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "pseudovector",
+    "status": "standard",
+    "source": "R5",
+    "note": "tasa de campo magnetico"
+  },
+  {
+    "id": "R5-28",
+    "level": 3,
+    "expression": "Gr L^-1 T^-1",
+    "unit": "Gr/(m*s)",
+    "dim": {
+      "l": -1,
+      "t": -1,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "quantity",
+    "tensor": "vector",
+    "status": "standard",
+    "source": "R5",
+    "note": "tasa de campo gravitatorio"
+  },
+  {
+    "id": "R6-VR-1",
+    "level": 2,
+    "expression": "V R^-1",
+    "unit": "V/rad",
+    "dim": {
+      "l": 0,
+      "t": 0,
+      "r": -1,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R6",
+    "note": "tension por radian"
+  },
+  {
+    "id": "R6-VR-2",
+    "level": 2,
+    "expression": "V R",
+    "unit": "V*rad",
+    "dim": {
+      "l": 0,
+      "t": 0,
+      "r": 1,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R6",
+    "note": "tension-fase"
+  },
+  {
+    "id": "R6-WbR-1",
+    "level": 2,
+    "expression": "Wb R^-1",
+    "unit": "Wb/rad",
+    "dim": {
+      "l": 0,
+      "t": 0,
+      "r": -1,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R6",
+    "note": "flujo por radian"
+  },
+  {
+    "id": "R6-WbR-2",
+    "level": 2,
+    "expression": "Wb R",
+    "unit": "Wb*rad",
+    "dim": {
+      "l": 0,
+      "t": 0,
+      "r": 1,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R6",
+    "note": "flujo-fase"
+  },
+  {
+    "id": "R6-GrR-1",
+    "level": 2,
+    "expression": "Gr R^-1",
+    "unit": "Gr/rad",
+    "dim": {
+      "l": 0,
+      "t": 0,
+      "r": -1,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R6",
+    "note": "potencial por radian"
+  },
+  {
+    "id": "R6-GrR-2",
+    "level": 2,
+    "expression": "Gr R",
+    "unit": "Gr*rad",
+    "dim": {
+      "l": 0,
+      "t": 0,
+      "r": 1,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R6",
+    "note": "potencial-fase"
+  },
+  {
+    "id": "R7-08",
+    "level": 3,
+    "expression": "V L^-1 R",
+    "unit": "V*rad/m",
+    "dim": {
+      "l": -1,
+      "t": 0,
+      "r": 1,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R7",
+    "note": "campo electrico-fase"
+  },
+  {
+    "id": "R8-14",
+    "level": 4,
+    "expression": "V L^-1 T^-1 R",
+    "unit": "V/(m*s)*rad",
+    "dim": {
+      "l": -1,
+      "t": -1,
+      "r": 1,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "vector",
+    "status": "candidate",
+    "source": "R8",
+    "note": "tasa de campo electrico con fase"
+  },
+  {
+    "id": "R8-42",
+    "level": 4,
+    "expression": "Wb L^-2 T^-1 R",
+    "unit": "Wb/(m^2*s)*rad",
+    "dim": {
+      "l": -2,
+      "t": -1,
+      "r": 1,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "pseudovector",
+    "status": "candidate",
+    "source": "R8",
+    "note": "tasa de campo magnetico con fase"
+  },
+  {
+    "id": "R8-62",
+    "level": 4,
+    "expression": "Gr L^-1 T^-1 R",
+    "unit": "Gr/(m*s)*rad",
+    "dim": {
+      "l": -1,
+      "t": -1,
+      "r": 1,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "candidate",
+    "tensor": "vector",
+    "status": "candidate",
+    "source": "R8",
+    "note": "tasa de campo gravitatorio con fase"
+  }
+]
