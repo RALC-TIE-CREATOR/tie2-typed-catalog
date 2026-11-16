@@ -1,8 +1,10 @@
 # TIE 2 — Catálogo tipado de cantidades físicas
 
-Prototipo de un **catálogo tipado y verificable por máquina de cantidades físicas**. Formaliza las reglas de admisibilidad de TIE 2 en Lean 4 y ofrece un dataset de 50 entradas extraído de un catálogo combinatorio de 254.
+Prototipo de un **catálogo tipado y verificable por máquina de cantidades físicas**. Formaliza las reglas de admisibilidad de TIE 2 en Lean 4 y ofrece el catálogo completo de 254 entradas.
 
-**Estado:** prototipo. 50/254 entradas; la compilación Lean pasa; `T⁻²`, `L⁴` y `R²` se rechazan. No es una teoría física validada.
+**Estado:** prototipo. 254/254 entradas; la compilación Lean pasa; `T⁻²`, `L⁴` y `R²` se rechazan. No es una teoría física validada.
+
+**Repositorio:** https://github.com/RALC-TIE-CREATOR/tie2-typed-catalog
 
 [English](README.md)
 
@@ -21,7 +23,7 @@ Este repositorio prueba si esa gramática puede formalizarse y verificarse.
 ## Contenido
 
 ```
-data/                 dataset de 50 entradas (JSON + CSV)
+data/                 dataset de 254 entradas (JSON + CSV)
 lean-tie2/            proyecto Lean 4
 docs/en/              documentación en inglés
 docs/es/              documentación en español
@@ -34,25 +36,27 @@ cd lean-tie2
 lake build
 ```
 
-Esperado: `TIE2.Dimensions`, `TIE2.Catalog`, `TIE2.Examples` compilan; `catalog50.length = 50`; todas las entradas pasan `admissibleB`; `T⁻²`, `L⁴`, `R²` fallan.
+Esperado: `TIE2.Dimensions`, `TIE2.Catalog`, `TIE2.Examples` compilan; `catalog254.length = 254`; todas las entradas pasan `admissibleB`; `T⁻²`, `L⁴`, `R²` fallan.
 
 ## Dataset
 
-`data/catalog50.json` y `data/catalog50.csv` contienen 50 entradas:
+`data/catalog254.json` y `data/catalog254.csv` contienen 254 entradas:
 
 | Bloque | Entradas |
 |---|---|
 | Unidades de nivel 1 | 16 |
-| GET estándar/etiqueta | 14 |
-| R5 estándar/puente | 10 |
-| Candidatos con Fase (R6–R8) | 10 |
+| R4 GET | 52 |
+| R5 S,T,Fi | 60 |
+| R6 T,F,Fi | 18 |
+| R7 S,F,Fi | 36 |
+| R8 S,T,F,Fi | 72 |
 
 Cada entrada declara: id, nivel, expresión, unidad, vector `L,T,R,V,Wb,Gr`, tipo, clase, estatus, fuente y nota.
 
 ## Verificación
 
-- JSON: 50 entradas.
-- CSV: 50 filas.
+- JSON: 254 entradas.
+- CSV: 254 filas.
 - Lean 4.34.0-rc2: `lake build` — 6 jobs, exit 0.
 - Pruebas de rechazo: `T⁻²`, `L⁴`, `R²`.
 
@@ -77,3 +81,4 @@ Este repositorio respalda una carta de intención para el programa AI for Scienc
 ## Cita
 
 Ver `CITATION.cff`.
+

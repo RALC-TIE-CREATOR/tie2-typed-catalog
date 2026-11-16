@@ -1,140 +1,141 @@
-# Letter of Intent — Anthropic AI for Science — v1.0
+# Letter of Intent — Anthropic AI for Science — v2.0
 
-**Fecha:** 2026-11-16
-**Solicitante:** Rubén Antonio Lecona Curto (R@LC)
-**Institución / PI:** [pendiente de afiliación]
-**Programa:** Anthropic AI for Science — hasta USD 50,000 en créditos Claude por proyecto
-**Duración:** 6 meses
-**Título:** *A Typed, Machine-Checkable Catalog of Physical Quantities: Formalizing TIE 2 in Lean 4 with Claude*
-
----
-
-## 1. Resumen
-
-La notación física estándar mezcla cantidades que comparten dimensiones pero no son la misma cosa: torque y energía, presión y densidad de energía, frecuencia y velocidad angular. El álgebra dimensional no detecta esos errores de categoría.
-
-TIE 2 propone una gramática tipada: cuatro entes (Espacio, Tiempo, Fase, Físico), reglas R-01–R-12 y un catálogo de **254 combinaciones únicas** (35 estándar, 4 etiqueta, 2 puente, 213 candidatos).
-
-Este proyecto formaliza y verifica ese catálogo en **Lean 4**, usando Claude como motor de generación, clasificación y búsqueda de contraejemplos. El objetivo no es demostrar una teoría física nueva: es construir un **artefacto abierto, tipado y verificable** que permita detectar errores de categoría y explorar sistemáticamente un lenguaje físico.
+**Date:** 2026-11-16
+**Applicant:** Rubén Antonio Lecona Curto (R@LC)
+**Institution / PI:** [pending affiliation]
+**Program:** Anthropic AI for Science — up to USD 50,000 in Claude credits per project
+**Duration:** 6 months
+**Title:** *A Typed, Machine-Checkable Catalog of Physical Quantities: Formalizing TIE 2 in Lean 4 with Claude*
 
 ---
 
-## 2. Prototipo ya construido
+## 1. Summary
 
-| Elemento | Estado |
+Standard physics notation conflates quantities that share dimensions but are not the same thing: torque and energy, pressure and energy density, frequency and angular velocity. Dimensional algebra does not detect those category errors.
+
+TIE 2 proposes a typed grammar: four entities (Space, Time, Phase, Physical), rules R-01–R-12, and a catalog of **254 unique combinations** (35 standard, 4 label, 2 bridge, 213 candidates).
+
+This project formalizes and verifies that catalog in **Lean 4**, using Claude as a generator, classifier, and counterexample engine. The goal is not to prove a new physical theory. It is to build an **open, typed, machine-checkable artifact** that detects category errors and explores a physical language systematically.
+
+---
+
+## 2. Prototype already built
+
+| Element | Status |
 |---|---|
-| Dataset de 50 entradas | `catalog50.json` / `catalog50.csv` |
-| Proyecto Lean 4 | `lean-tie2/` con `lakefile.lean` y `lean-toolchain` |
-| Reglas de admisibilidad | `L ∈ [-3,3]`; `T,R,V,Wb,Gr ∈ {-1,0,1}` |
-| Pruebas de rechazo | `T⁻²`, `L⁴`, `R²` → `false` |
-| Catálogo Lean | `catalog50.length = 50`; todas admisibles |
-| Compilación | `lake build` — 6 jobs, exitoso |
+| 254-entry dataset | `catalog254.json` / `catalog254.csv` |
+| Lean 4 project | `lean-tie2/` with `lakefile.lean` and `lean-toolchain` |
+| Admissibility rules | `L ∈ [-3,3]`; `T,R,V,Wb,Gr ∈ {-1,0,1}` |
+| Rejection tests | `T⁻²`, `L⁴`, `R²` → `false` |
+| Lean catalog | `catalog254.length = 254`; all entries admissible |
+| Build | `lake build` — 6 jobs, exit 0 |
 
-El prototipo demuestra que la gramática es formalizable y que el verificador rechaza las unidades prohibidas.
-
----
-
-## 3. Pregunta de investigación
-
-> ¿Puede un asistente de pruebas tipado, asistido por un LLM, formalizar y verificar un catálogo físico de 254 entradas, detectar errores de categoría en la notación estándar y producir un benchmark reproducible?
+The prototype shows that the grammar is formalizable and that the checker rejects forbidden units.
 
 ---
 
-## 4. Método
+## 3. Research question
 
-1. **Formalizar R-01–R-12** en Lean 4: dimensiones, tipos tensoriales, clases, dominio, procesos vs. unidades.
-2. **Codificar las 254 entradas** como dataset tipado y reproducible.
-3. **Usar Claude** para generar borradores de definiciones, pruebas de tipo y contraejemplos.
-4. **Verificación humana + `lean`** como árbitro final.
-5. **Benchmark abierto:** dado un enunciado físico, decidir si es admisible, proceso o suma inválida.
+> Can a typed proof assistant, assisted by an LLM, formalize and verify a 254-entry physical catalog, detect category errors in standard notation, and produce a reproducible benchmark?
 
 ---
 
-## 5. Entregables
+## 4. Method
 
-- Librería Lean 4 de tipos y reglas R-01–R-12.
-- Dataset abierto de 254 entradas con dimensión, tipo, clase y estatus.
-- Benchmark de 200–500 enunciados válidos/inválidos.
-- Preprint de 8–12 páginas.
-- Repositorio reproducible con CI.
-- Informe de errores de categoría detectados.
+1. **Formalize R-01–R-12** in Lean 4: dimensions, tensor types, classes, domains, processes vs. units.
+2. **Encode the 254 entries** as a typed, reproducible dataset.
+3. **Use Claude** to draft definitions, type proofs, and counterexamples.
+4. **Human review + `lean`** as the final arbiter.
+5. **Open benchmark:** given a physical statement, decide whether it is admissible, a process, or an invalid sum.
 
 ---
 
-## 6. Evaluación
+## 5. Deliverables
 
-| Métrica | Objetivo |
+- Lean 4 library for R-01–R-12.
+- Open dataset of 254 entries with dimension, type, class, and status.
+- Benchmark of 200–500 valid/invalid statements.
+- 8–12 page preprint.
+- Reproducible repository with CI.
+- Report of detected category errors.
+
+---
+
+## 6. Evaluation
+
+| Metric | Target |
 |---|---|
-| Cobertura de R-01–R-12 | 100% |
-| Entradas tipadas en Lean | 254/254 |
-| Tasa de type-check | ≥ 95% |
-| Errores de categoría documentados | ≥ 20 |
-| Acuerdo humano–Claude en benchmark | ≥ 90% |
-| Reducción de tiempo de formalización | ≥ 30% vs. línea base manual |
+| R-01–R-12 coverage | 100% |
+| Entries typed in Lean | 254/254 |
+| Type-check rate | ≥ 95% |
+| Documented category errors | ≥ 20 |
+| Human–Claude agreement on benchmark | ≥ 90% |
+| Formalization time reduction | ≥ 30% vs. manual baseline |
 
 ---
 
-## 7. Plan de 6 meses
+## 7. Six-month plan
 
-| Mes | Hito |
+| Month | Milestone |
 |---|---|
-| 1 | Cerrar R-01–R-06; 50 entradas (ya iniciado) |
-| 2 | R-07–R-12; 100 entradas |
-| 3 | 254 entradas; benchmark inicial |
-| 4 | Claude-assisted proofs; benchmark ampliado |
-| 5 | Preprint y revisión externa |
-| 6 | Repositorio final, CI y solicitud de publicación |
+| 1 | R-01–R-06; 254 entries (already started) |
+| 2 | R-07–R-12; type/class rules |
+| 3 | Initial benchmark of 200–500 statements |
+| 4 | Claude-assisted proofs; expanded benchmark |
+| 5 | Preprint and external review |
+| 6 | Final repository, CI, and publication submission |
 
 ---
 
-## 8. Presupuesto
+## 8. Budget
 
-| Rubro | Estimado |
+| Item | Estimate |
 |---|---|
-| Créditos Claude | hasta USD 50,000 |
-| Compute Lean/CI | USD 3,000–5,000 |
-| Difusión / preprint | USD 2,000 |
-| Sin salario solicitado al programa | — |
+| Claude credits | up to USD 50,000 |
+| Lean/CI compute | USD 3,000–5,000 |
+| Dissemination / preprint | USD 2,000 |
+| No salary requested from the program | — |
 
 ---
 
-## 9. Por qué Anthropic
+## 9. Why Anthropic
 
-- AI for Science apoya proyectos científicos de alto impacto con créditos Claude; este proyecto usa el modelo como motor de formalización, no como generador de texto.
-- El resultado es un artefacto abierto y verificable: Lean, dataset, benchmark y preprint.
-- El prototipo ya existe y compila; el riesgo técnico es bajo.
+- AI for Science supports high-impact scientific projects with Claude credits; this project uses the model as a formalization engine, not as a text generator.
+- The output is an open, verifiable artifact: Lean, dataset, benchmark, and preprint.
+- The prototype already exists and builds; technical risk is low.
 
 ---
 
-## 10. Riesgos y mitigación
+## 10. Risks and mitigation
 
-| Riesgo | Mitigación |
+| Risk | Mitigation |
 |---|---|
-| El catálogo es demasiado amplio | Hitos de 50 → 100 → 254; empezar por R-01–R-06 |
-| Claude alucina pruebas | Lean verifica; revisión humana por muestra |
-| Falta de afiliación | Buscar PI académico o institución sin fines de lucro |
-| Teoría no validada empíricamente | Se presenta como formalización, no como teoría confirmada |
+| The catalog is too broad | 254 entries already encoded; 50-entry subset as regression |
+| Claude hallucinates proofs | Lean verifies; human review by sample |
+| Lack of affiliation | Seek an academic or nonprofit PI |
+| Theory not empirically validated | Presented as formalization, not as confirmed theory |
 
 ---
 
-## 11. Afiliación y equipo
+## 11. Affiliation and team
 
-- **PI:** [pendiente]
-- **Institución:** [pendiente]
-- **Colaboradores:** [pendiente]
-- **Repositorio:** [pendiente de URL pública]
-
----
-
-## 12. Siguiente paso
-
-- Confirmar PI/afiliación.
-- Publicar el repo Lean y el dataset.
-- Enviar la solicitud a AI for Science con este paquete.
+- **PI:** [pending]
+- **Institution:** [pending]
+- **Collaborators:** [pending]
+- **Repository:** https://github.com/RALC-TIE-CREATOR/tie2-typed-catalog
 
 ---
 
-## 13. Registro de cambios
+## 12. Next step
 
-- **v0.1 (2026-11-16):** borrador inicial.
-- **v1.0 (2026-11-16):** prototipo Lean de 50 entradas compilado; métricas y plan de 6 meses.
+- Confirm PI/affiliation.
+- Publish the Lean repo and dataset.
+- Submit the application to AI for Science with this package.
+
+---
+
+## 13. Change log
+
+- **v0.1 (2026-11-16):** initial draft.
+- **v1.0 (2026-11-16):** Lean prototype of 50 entries compiled; metrics and six-month plan.
+- **v2.0 (2026-11-16):** full 254-entry catalog encoded and compiled; public repository.

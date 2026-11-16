@@ -1,0 +1,4828 @@
+[
+  {
+    "id": "L1-01",
+    "level": 1,
+    "expression": "L",
+    "unit": "m",
+    "dim": {
+      "l": 1,
+      "t": 0,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "primitive",
+    "tensor": "scalar",
+    "status": "standard",
+    "source": "R3",
+    "note": "longitud"
+  },
+  {
+    "id": "L1-02",
+    "level": 1,
+    "expression": "L^2",
+    "unit": "m^2",
+    "dim": {
+      "l": 2,
+      "t": 0,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "primitive",
+    "tensor": "scalar",
+    "status": "standard",
+    "source": "R3",
+    "note": "area"
+  },
+  {
+    "id": "L1-03",
+    "level": 1,
+    "expression": "L^3",
+    "unit": "m^3",
+    "dim": {
+      "l": 3,
+      "t": 0,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "primitive",
+    "tensor": "scalar",
+    "status": "standard",
+    "source": "R3",
+    "note": "volumen"
+  },
+  {
+    "id": "L1-04",
+    "level": 1,
+    "expression": "L^-1",
+    "unit": "1/m",
+    "dim": {
+      "l": -1,
+      "t": 0,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "primitive",
+    "tensor": "scalar",
+    "status": "standard",
+    "source": "R3",
+    "note": "numero de onda/curvatura"
+  },
+  {
+    "id": "L1-05",
+    "level": 1,
+    "expression": "L^-2",
+    "unit": "1/m^2",
+    "dim": {
+      "l": -2,
+      "t": 0,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "primitive",
+    "tensor": "scalar",
+    "status": "standard",
+    "source": "R3",
+    "note": "densidad superficial"
+  },
+  {
+    "id": "L1-06",
+    "level": 1,
+    "expression": "L^-3",
+    "unit": "1/m^3",
+    "dim": {
+      "l": -3,
+      "t": 0,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "primitive",
+    "tensor": "scalar",
+    "status": "standard",
+    "source": "R3",
+    "note": "densidad numerica"
+  },
+  {
+    "id": "L1-07",
+    "level": 1,
+    "expression": "T",
+    "unit": "s",
+    "dim": {
+      "l": 0,
+      "t": 1,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "primitive",
+    "tensor": "scalar",
+    "status": "standard",
+    "source": "R3",
+    "note": "duracion"
+  },
+  {
+    "id": "L1-08",
+    "level": 1,
+    "expression": "T^-1",
+    "unit": "1/s",
+    "dim": {
+      "l": 0,
+      "t": -1,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "primitive",
+    "tensor": "scalar",
+    "status": "standard",
+    "source": "R3",
+    "note": "frecuencia"
+  },
+  {
+    "id": "L1-09",
+    "level": 1,
+    "expression": "R",
+    "unit": "rad",
+    "dim": {
+      "l": 0,
+      "t": 0,
+      "r": 1,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "primitive",
+    "tensor": "scalar",
+    "status": "standard",
+    "source": "R3",
+    "note": "angulo/fase"
+  },
+  {
+    "id": "L1-10",
+    "level": 1,
+    "expression": "R^-1",
+    "unit": "1/rad",
+    "dim": {
+      "l": 0,
+      "t": 0,
+      "r": -1,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "primitive",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R3",
+    "note": "inverso de fase"
+  },
+  {
+    "id": "L1-11",
+    "level": 1,
+    "expression": "V",
+    "unit": "V",
+    "dim": {
+      "l": 0,
+      "t": 0,
+      "r": 0,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "primitive",
+    "tensor": "scalar",
+    "status": "standard",
+    "source": "R3",
+    "note": "tension electrica"
+  },
+  {
+    "id": "L1-12",
+    "level": 1,
+    "expression": "Wb",
+    "unit": "Wb",
+    "dim": {
+      "l": 0,
+      "t": 0,
+      "r": 0,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "primitive",
+    "tensor": "scalar",
+    "status": "standard",
+    "source": "R3",
+    "note": "torsion magnetica"
+  },
+  {
+    "id": "L1-13",
+    "level": 1,
+    "expression": "Gr",
+    "unit": "Gr",
+    "dim": {
+      "l": 0,
+      "t": 0,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "primitive",
+    "tensor": "scalar",
+    "status": "standard",
+    "source": "R3",
+    "note": "tension gravitatoria"
+  },
+  {
+    "id": "L1-14",
+    "level": 1,
+    "expression": "V^-1",
+    "unit": "1/V",
+    "dim": {
+      "l": 0,
+      "t": 0,
+      "r": 0,
+      "v": -1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "primitive",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R3",
+    "note": "inverso de tension"
+  },
+  {
+    "id": "L1-15",
+    "level": 1,
+    "expression": "Wb^-1",
+    "unit": "1/Wb",
+    "dim": {
+      "l": 0,
+      "t": 0,
+      "r": 0,
+      "v": 0,
+      "wb": -1,
+      "gr": 0
+    },
+    "kind": "primitive",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R3",
+    "note": "inverso de torsion"
+  },
+  {
+    "id": "L1-16",
+    "level": 1,
+    "expression": "Gr^-1",
+    "unit": "1/Gr",
+    "dim": {
+      "l": 0,
+      "t": 0,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": -1
+    },
+    "kind": "primitive",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R3",
+    "note": "inverso de tension gravitatoria"
+  },
+  {
+    "id": "ST-01",
+    "level": 2,
+    "expression": "L T^-1",
+    "unit": "m/s",
+    "dim": {
+      "l": 1,
+      "t": -1,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "vector",
+    "status": "standard",
+    "source": "R4",
+    "note": "S-T"
+  },
+  {
+    "id": "ST-02",
+    "level": 2,
+    "expression": "L T",
+    "unit": "m*s",
+    "dim": {
+      "l": 1,
+      "t": 1,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "standard",
+    "source": "R4",
+    "note": "S-T"
+  },
+  {
+    "id": "ST-03",
+    "level": 2,
+    "expression": "L^2 T^-1",
+    "unit": "m^2/s",
+    "dim": {
+      "l": 2,
+      "t": -1,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "standard",
+    "source": "R4",
+    "note": "S-T"
+  },
+  {
+    "id": "ST-04",
+    "level": 2,
+    "expression": "L^2 T",
+    "unit": "m^2*s",
+    "dim": {
+      "l": 2,
+      "t": 1,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R4",
+    "note": "S-T"
+  },
+  {
+    "id": "ST-05",
+    "level": 2,
+    "expression": "L^3 T^-1",
+    "unit": "m^3/s",
+    "dim": {
+      "l": 3,
+      "t": -1,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "standard",
+    "source": "R4",
+    "note": "S-T"
+  },
+  {
+    "id": "ST-06",
+    "level": 2,
+    "expression": "L^3 T",
+    "unit": "m^3*s",
+    "dim": {
+      "l": 3,
+      "t": 1,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "standard",
+    "source": "R4",
+    "note": "S-T"
+  },
+  {
+    "id": "ST-07",
+    "level": 2,
+    "expression": "L^-1 T^-1",
+    "unit": "1/(m*s)",
+    "dim": {
+      "l": -1,
+      "t": -1,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "standard",
+    "source": "R4",
+    "note": "S-T"
+  },
+  {
+    "id": "ST-08",
+    "level": 2,
+    "expression": "L^-1 T",
+    "unit": "s/m",
+    "dim": {
+      "l": -1,
+      "t": 1,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R4",
+    "note": "S-T"
+  },
+  {
+    "id": "ST-09",
+    "level": 2,
+    "expression": "L^-2 T^-1",
+    "unit": "1/(m^2*s)",
+    "dim": {
+      "l": -2,
+      "t": -1,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R4",
+    "note": "S-T"
+  },
+  {
+    "id": "ST-10",
+    "level": 2,
+    "expression": "L^-2 T",
+    "unit": "s/m^2",
+    "dim": {
+      "l": -2,
+      "t": 1,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "standard",
+    "source": "R4",
+    "note": "S-T"
+  },
+  {
+    "id": "ST-11",
+    "level": 2,
+    "expression": "L^-3 T^-1",
+    "unit": "1/(m^3*s)",
+    "dim": {
+      "l": -3,
+      "t": -1,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R4",
+    "note": "S-T"
+  },
+  {
+    "id": "ST-12",
+    "level": 2,
+    "expression": "L^-3 T",
+    "unit": "s/m^3",
+    "dim": {
+      "l": -3,
+      "t": 1,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R4",
+    "note": "S-T"
+  },
+  {
+    "id": "SR-01",
+    "level": 2,
+    "expression": "L R",
+    "unit": "m*rad",
+    "dim": {
+      "l": 1,
+      "t": 0,
+      "r": 1,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "etiqueta",
+    "source": "R4",
+    "note": "S-Fase"
+  },
+  {
+    "id": "SR-02",
+    "level": 2,
+    "expression": "L R^-1",
+    "unit": "m/rad",
+    "dim": {
+      "l": 1,
+      "t": 0,
+      "r": -1,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "etiqueta",
+    "source": "R4",
+    "note": "S-Fase"
+  },
+  {
+    "id": "SR-03",
+    "level": 2,
+    "expression": "L^2 R",
+    "unit": "m^2*rad",
+    "dim": {
+      "l": 2,
+      "t": 0,
+      "r": 1,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R4",
+    "note": "S-Fase"
+  },
+  {
+    "id": "SR-04",
+    "level": 2,
+    "expression": "L^2 R^-1",
+    "unit": "m^2/rad",
+    "dim": {
+      "l": 2,
+      "t": 0,
+      "r": -1,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "standard",
+    "source": "R4",
+    "note": "S-Fase"
+  },
+  {
+    "id": "SR-05",
+    "level": 2,
+    "expression": "L^3 R",
+    "unit": "m^3*rad",
+    "dim": {
+      "l": 3,
+      "t": 0,
+      "r": 1,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R4",
+    "note": "S-Fase"
+  },
+  {
+    "id": "SR-06",
+    "level": 2,
+    "expression": "L^3 R^-1",
+    "unit": "m^3/rad",
+    "dim": {
+      "l": 3,
+      "t": 0,
+      "r": -1,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R4",
+    "note": "S-Fase"
+  },
+  {
+    "id": "SR-07",
+    "level": 2,
+    "expression": "L^-1 R",
+    "unit": "rad/m",
+    "dim": {
+      "l": -1,
+      "t": 0,
+      "r": 1,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "standard",
+    "source": "R4",
+    "note": "S-Fase"
+  },
+  {
+    "id": "SR-08",
+    "level": 2,
+    "expression": "L^-1 R^-1",
+    "unit": "1/(m*rad)",
+    "dim": {
+      "l": -1,
+      "t": 0,
+      "r": -1,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "standard",
+    "source": "R4",
+    "note": "S-Fase"
+  },
+  {
+    "id": "SR-09",
+    "level": 2,
+    "expression": "L^-2 R",
+    "unit": "rad/m^2",
+    "dim": {
+      "l": -2,
+      "t": 0,
+      "r": 1,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R4",
+    "note": "S-Fase"
+  },
+  {
+    "id": "SR-10",
+    "level": 2,
+    "expression": "L^-2 R^-1",
+    "unit": "1/(m^2*rad)",
+    "dim": {
+      "l": -2,
+      "t": 0,
+      "r": -1,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R4",
+    "note": "S-Fase"
+  },
+  {
+    "id": "SR-11",
+    "level": 2,
+    "expression": "L^-3 R",
+    "unit": "rad/m^3",
+    "dim": {
+      "l": -3,
+      "t": 0,
+      "r": 1,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R4",
+    "note": "S-Fase"
+  },
+  {
+    "id": "SR-12",
+    "level": 2,
+    "expression": "L^-3 R^-1",
+    "unit": "1/(m^3*rad)",
+    "dim": {
+      "l": -3,
+      "t": 0,
+      "r": -1,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R4",
+    "note": "S-Fase"
+  },
+  {
+    "id": "TR-01",
+    "level": 2,
+    "expression": "T^-1 R",
+    "unit": "rad/s",
+    "dim": {
+      "l": 0,
+      "t": -1,
+      "r": 1,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "pseudovector",
+    "status": "standard",
+    "source": "R4",
+    "note": "T-Fase"
+  },
+  {
+    "id": "TR-02",
+    "level": 2,
+    "expression": "T^-1 R^-1",
+    "unit": "1/(s*rad)",
+    "dim": {
+      "l": 0,
+      "t": -1,
+      "r": -1,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R4",
+    "note": "T-Fase"
+  },
+  {
+    "id": "TR-03",
+    "level": 2,
+    "expression": "T R",
+    "unit": "s*rad",
+    "dim": {
+      "l": 0,
+      "t": 1,
+      "r": 1,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "standard",
+    "source": "R4",
+    "note": "T-Fase"
+  },
+  {
+    "id": "TR-04",
+    "level": 2,
+    "expression": "T R^-1",
+    "unit": "s/rad",
+    "dim": {
+      "l": 0,
+      "t": 1,
+      "r": -1,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "standard",
+    "source": "R4",
+    "note": "T-Fase"
+  },
+  {
+    "id": "STR-01",
+    "level": 3,
+    "expression": "L T^-1 R",
+    "unit": "m*rad/s",
+    "dim": {
+      "l": 1,
+      "t": -1,
+      "r": 1,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "vector",
+    "status": "etiqueta",
+    "source": "R4",
+    "note": "S-T-Fase"
+  },
+  {
+    "id": "STR-02",
+    "level": 3,
+    "expression": "L T^-1 R^-1",
+    "unit": "m/(s*rad)",
+    "dim": {
+      "l": 1,
+      "t": -1,
+      "r": -1,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "etiqueta",
+    "source": "R4",
+    "note": "S-T-Fase"
+  },
+  {
+    "id": "STR-03",
+    "level": 3,
+    "expression": "L T R",
+    "unit": "m*s*rad",
+    "dim": {
+      "l": 1,
+      "t": 1,
+      "r": 1,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R4",
+    "note": "S-T-Fase"
+  },
+  {
+    "id": "STR-04",
+    "level": 3,
+    "expression": "L T R^-1",
+    "unit": "m*s/rad",
+    "dim": {
+      "l": 1,
+      "t": 1,
+      "r": -1,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "pseudovector",
+    "status": "standard",
+    "source": "R4",
+    "note": "S-T-Fase"
+  },
+  {
+    "id": "STR-05",
+    "level": 3,
+    "expression": "L^2 T^-1 R",
+    "unit": "m^2*rad/s",
+    "dim": {
+      "l": 2,
+      "t": -1,
+      "r": 1,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R4",
+    "note": "S-T-Fase"
+  },
+  {
+    "id": "STR-06",
+    "level": 3,
+    "expression": "L^2 T^-1 R^-1",
+    "unit": "m^2/(s*rad)",
+    "dim": {
+      "l": 2,
+      "t": -1,
+      "r": -1,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R4",
+    "note": "S-T-Fase"
+  },
+  {
+    "id": "STR-07",
+    "level": 3,
+    "expression": "L^2 T R",
+    "unit": "m^2*s*rad",
+    "dim": {
+      "l": 2,
+      "t": 1,
+      "r": 1,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R4",
+    "note": "S-T-Fase"
+  },
+  {
+    "id": "STR-08",
+    "level": 3,
+    "expression": "L^2 T R^-1",
+    "unit": "m^2*s/rad",
+    "dim": {
+      "l": 2,
+      "t": 1,
+      "r": -1,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R4",
+    "note": "S-T-Fase"
+  },
+  {
+    "id": "STR-09",
+    "level": 3,
+    "expression": "L^3 T^-1 R",
+    "unit": "m^3*rad/s",
+    "dim": {
+      "l": 3,
+      "t": -1,
+      "r": 1,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R4",
+    "note": "S-T-Fase"
+  },
+  {
+    "id": "STR-10",
+    "level": 3,
+    "expression": "L^3 T^-1 R^-1",
+    "unit": "m^3/(s*rad)",
+    "dim": {
+      "l": 3,
+      "t": -1,
+      "r": -1,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R4",
+    "note": "S-T-Fase"
+  },
+  {
+    "id": "STR-11",
+    "level": 3,
+    "expression": "L^3 T R",
+    "unit": "m^3*s*rad",
+    "dim": {
+      "l": 3,
+      "t": 1,
+      "r": 1,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R4",
+    "note": "S-T-Fase"
+  },
+  {
+    "id": "STR-12",
+    "level": 3,
+    "expression": "L^3 T R^-1",
+    "unit": "m^3*s/rad",
+    "dim": {
+      "l": 3,
+      "t": 1,
+      "r": -1,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R4",
+    "note": "S-T-Fase"
+  },
+  {
+    "id": "STR-13",
+    "level": 3,
+    "expression": "L^-1 T^-1 R",
+    "unit": "rad/(m*s)",
+    "dim": {
+      "l": -1,
+      "t": -1,
+      "r": 1,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R4",
+    "note": "S-T-Fase"
+  },
+  {
+    "id": "STR-14",
+    "level": 3,
+    "expression": "L^-1 T^-1 R^-1",
+    "unit": "1/(m*s*rad)",
+    "dim": {
+      "l": -1,
+      "t": -1,
+      "r": -1,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R4",
+    "note": "S-T-Fase"
+  },
+  {
+    "id": "STR-15",
+    "level": 3,
+    "expression": "L^-1 T R",
+    "unit": "s*rad/m",
+    "dim": {
+      "l": -1,
+      "t": 1,
+      "r": 1,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R4",
+    "note": "S-T-Fase"
+  },
+  {
+    "id": "STR-16",
+    "level": 3,
+    "expression": "L^-1 T R^-1",
+    "unit": "s/(m*rad)",
+    "dim": {
+      "l": -1,
+      "t": 1,
+      "r": -1,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R4",
+    "note": "S-T-Fase"
+  },
+  {
+    "id": "STR-17",
+    "level": 3,
+    "expression": "L^-2 T^-1 R",
+    "unit": "rad/(m^2*s)",
+    "dim": {
+      "l": -2,
+      "t": -1,
+      "r": 1,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R4",
+    "note": "S-T-Fase"
+  },
+  {
+    "id": "STR-18",
+    "level": 3,
+    "expression": "L^-2 T^-1 R^-1",
+    "unit": "1/(m^2*s*rad)",
+    "dim": {
+      "l": -2,
+      "t": -1,
+      "r": -1,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R4",
+    "note": "S-T-Fase"
+  },
+  {
+    "id": "STR-19",
+    "level": 3,
+    "expression": "L^-2 T R",
+    "unit": "s*rad/m^2",
+    "dim": {
+      "l": -2,
+      "t": 1,
+      "r": 1,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R4",
+    "note": "S-T-Fase"
+  },
+  {
+    "id": "STR-20",
+    "level": 3,
+    "expression": "L^-2 T R^-1",
+    "unit": "s/(m^2*rad)",
+    "dim": {
+      "l": -2,
+      "t": 1,
+      "r": -1,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R4",
+    "note": "S-T-Fase"
+  },
+  {
+    "id": "STR-21",
+    "level": 3,
+    "expression": "L^-3 T^-1 R",
+    "unit": "rad/(m^3*s)",
+    "dim": {
+      "l": -3,
+      "t": -1,
+      "r": 1,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R4",
+    "note": "S-T-Fase"
+  },
+  {
+    "id": "STR-22",
+    "level": 3,
+    "expression": "L^-3 T^-1 R^-1",
+    "unit": "1/(m^3*s*rad)",
+    "dim": {
+      "l": -3,
+      "t": -1,
+      "r": -1,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R4",
+    "note": "S-T-Fase"
+  },
+  {
+    "id": "STR-23",
+    "level": 3,
+    "expression": "L^-3 T R",
+    "unit": "s*rad/m^3",
+    "dim": {
+      "l": -3,
+      "t": 1,
+      "r": 1,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R4",
+    "note": "S-T-Fase"
+  },
+  {
+    "id": "STR-24",
+    "level": 3,
+    "expression": "L^-3 T R^-1",
+    "unit": "s/(m^3*rad)",
+    "dim": {
+      "l": -3,
+      "t": 1,
+      "r": -1,
+      "v": 0,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R4",
+    "note": "S-T-Fase"
+  },
+  {
+    "id": "R5-VL-1",
+    "level": 2,
+    "expression": "L V",
+    "unit": "m*V",
+    "dim": {
+      "l": 1,
+      "t": 0,
+      "r": 0,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "vector",
+    "status": "standard",
+    "source": "R5",
+    "note": "V-L"
+  },
+  {
+    "id": "R5-VL-2",
+    "level": 2,
+    "expression": "L^2 V",
+    "unit": "m^2*V",
+    "dim": {
+      "l": 2,
+      "t": 0,
+      "r": 0,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R5",
+    "note": "V-L"
+  },
+  {
+    "id": "R5-VL-3",
+    "level": 2,
+    "expression": "L^3 V",
+    "unit": "m^3*V",
+    "dim": {
+      "l": 3,
+      "t": 0,
+      "r": 0,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R5",
+    "note": "V-L"
+  },
+  {
+    "id": "R5-VL-4",
+    "level": 2,
+    "expression": "L^-1 V",
+    "unit": "V/m",
+    "dim": {
+      "l": -1,
+      "t": 0,
+      "r": 0,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "vector",
+    "status": "standard",
+    "source": "R5",
+    "note": "V-L"
+  },
+  {
+    "id": "R5-VL-5",
+    "level": 2,
+    "expression": "L^-2 V",
+    "unit": "V/m^2",
+    "dim": {
+      "l": -2,
+      "t": 0,
+      "r": 0,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R5",
+    "note": "V-L"
+  },
+  {
+    "id": "R5-VL-6",
+    "level": 2,
+    "expression": "L^-3 V",
+    "unit": "V/m^3",
+    "dim": {
+      "l": -3,
+      "t": 0,
+      "r": 0,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R5",
+    "note": "V-L"
+  },
+  {
+    "id": "R5-WbL-1",
+    "level": 2,
+    "expression": "L Wb",
+    "unit": "m*Wb",
+    "dim": {
+      "l": 1,
+      "t": 0,
+      "r": 0,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R5",
+    "note": "Wb-L"
+  },
+  {
+    "id": "R5-WbL-2",
+    "level": 2,
+    "expression": "L^2 Wb",
+    "unit": "m^2*Wb",
+    "dim": {
+      "l": 2,
+      "t": 0,
+      "r": 0,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R5",
+    "note": "Wb-L"
+  },
+  {
+    "id": "R5-WbL-3",
+    "level": 2,
+    "expression": "L^3 Wb",
+    "unit": "m^3*Wb",
+    "dim": {
+      "l": 3,
+      "t": 0,
+      "r": 0,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R5",
+    "note": "Wb-L"
+  },
+  {
+    "id": "R5-WbL-4",
+    "level": 2,
+    "expression": "L^-1 Wb",
+    "unit": "Wb/m",
+    "dim": {
+      "l": -1,
+      "t": 0,
+      "r": 0,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "pseudovector",
+    "status": "standard",
+    "source": "R5",
+    "note": "Wb-L"
+  },
+  {
+    "id": "R5-WbL-5",
+    "level": 2,
+    "expression": "L^-2 Wb",
+    "unit": "Wb/m^2",
+    "dim": {
+      "l": -2,
+      "t": 0,
+      "r": 0,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "pseudovector",
+    "status": "standard",
+    "source": "R5",
+    "note": "Wb-L"
+  },
+  {
+    "id": "R5-WbL-6",
+    "level": 2,
+    "expression": "L^-3 Wb",
+    "unit": "Wb/m^3",
+    "dim": {
+      "l": -3,
+      "t": 0,
+      "r": 0,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R5",
+    "note": "Wb-L"
+  },
+  {
+    "id": "R5-GrL-1",
+    "level": 2,
+    "expression": "L Gr",
+    "unit": "m*Gr",
+    "dim": {
+      "l": 1,
+      "t": 0,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R5",
+    "note": "Gr-L"
+  },
+  {
+    "id": "R5-GrL-2",
+    "level": 2,
+    "expression": "L^2 Gr",
+    "unit": "m^2*Gr",
+    "dim": {
+      "l": 2,
+      "t": 0,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R5",
+    "note": "Gr-L"
+  },
+  {
+    "id": "R5-GrL-3",
+    "level": 2,
+    "expression": "L^3 Gr",
+    "unit": "m^3*Gr",
+    "dim": {
+      "l": 3,
+      "t": 0,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R5",
+    "note": "Gr-L"
+  },
+  {
+    "id": "R5-GrL-4",
+    "level": 2,
+    "expression": "L^-1 Gr",
+    "unit": "Gr/m",
+    "dim": {
+      "l": -1,
+      "t": 0,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "quantity",
+    "tensor": "vector",
+    "status": "standard",
+    "source": "R5",
+    "note": "Gr-L"
+  },
+  {
+    "id": "R5-GrL-5",
+    "level": 2,
+    "expression": "L^-2 Gr",
+    "unit": "Gr/m^2",
+    "dim": {
+      "l": -2,
+      "t": 0,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R5",
+    "note": "Gr-L"
+  },
+  {
+    "id": "R5-GrL-6",
+    "level": 2,
+    "expression": "L^-3 Gr",
+    "unit": "Gr/m^3",
+    "dim": {
+      "l": -3,
+      "t": 0,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R5",
+    "note": "Gr-L"
+  },
+  {
+    "id": "R5-VT-1",
+    "level": 2,
+    "expression": "T^-1 V",
+    "unit": "V/s",
+    "dim": {
+      "l": 0,
+      "t": -1,
+      "r": 0,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "standard",
+    "source": "R5",
+    "note": "V-T"
+  },
+  {
+    "id": "R5-VT-2",
+    "level": 2,
+    "expression": "T V",
+    "unit": "s*V",
+    "dim": {
+      "l": 0,
+      "t": 1,
+      "r": 0,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "bridge",
+    "source": "R5",
+    "note": "V-T"
+  },
+  {
+    "id": "R5-WbT-1",
+    "level": 2,
+    "expression": "T^-1 Wb",
+    "unit": "Wb/s",
+    "dim": {
+      "l": 0,
+      "t": -1,
+      "r": 0,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "bridge",
+    "source": "R5",
+    "note": "Wb-T"
+  },
+  {
+    "id": "R5-WbT-2",
+    "level": 2,
+    "expression": "T Wb",
+    "unit": "s*Wb",
+    "dim": {
+      "l": 0,
+      "t": 1,
+      "r": 0,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R5",
+    "note": "Wb-T"
+  },
+  {
+    "id": "R5-GrT-1",
+    "level": 2,
+    "expression": "T^-1 Gr",
+    "unit": "Gr/s",
+    "dim": {
+      "l": 0,
+      "t": -1,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R5",
+    "note": "Gr-T"
+  },
+  {
+    "id": "R5-GrT-2",
+    "level": 2,
+    "expression": "T Gr",
+    "unit": "s*Gr",
+    "dim": {
+      "l": 0,
+      "t": 1,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R5",
+    "note": "Gr-T"
+  },
+  {
+    "id": "R5-01",
+    "level": 3,
+    "expression": "L T^-1 V",
+    "unit": "m*V/s",
+    "dim": {
+      "l": 1,
+      "t": -1,
+      "r": 0,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R5",
+    "note": "V-L-T"
+  },
+  {
+    "id": "R5-02",
+    "level": 3,
+    "expression": "L T V",
+    "unit": "m*s*V",
+    "dim": {
+      "l": 1,
+      "t": 1,
+      "r": 0,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R5",
+    "note": "V-L-T"
+  },
+  {
+    "id": "R5-03",
+    "level": 3,
+    "expression": "L^2 T^-1 V",
+    "unit": "m^2*V/s",
+    "dim": {
+      "l": 2,
+      "t": -1,
+      "r": 0,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R5",
+    "note": "V-L-T"
+  },
+  {
+    "id": "R5-04",
+    "level": 3,
+    "expression": "L^2 T V",
+    "unit": "m^2*s*V",
+    "dim": {
+      "l": 2,
+      "t": 1,
+      "r": 0,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "vector",
+    "status": "standard",
+    "source": "R5",
+    "note": "V-L-T"
+  },
+  {
+    "id": "R5-05",
+    "level": 3,
+    "expression": "L^3 T^-1 V",
+    "unit": "m^3*V/s",
+    "dim": {
+      "l": 3,
+      "t": -1,
+      "r": 0,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R5",
+    "note": "V-L-T"
+  },
+  {
+    "id": "R5-06",
+    "level": 3,
+    "expression": "L^3 T V",
+    "unit": "m^3*s*V",
+    "dim": {
+      "l": 3,
+      "t": 1,
+      "r": 0,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R5",
+    "note": "V-L-T"
+  },
+  {
+    "id": "R5-07",
+    "level": 3,
+    "expression": "L^-1 T^-1 V",
+    "unit": "V/(m*s)",
+    "dim": {
+      "l": -1,
+      "t": -1,
+      "r": 0,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R5",
+    "note": "V-L-T"
+  },
+  {
+    "id": "R5-08",
+    "level": 3,
+    "expression": "L^-1 T V",
+    "unit": "s*V/m",
+    "dim": {
+      "l": -1,
+      "t": 1,
+      "r": 0,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R5",
+    "note": "V-L-T"
+  },
+  {
+    "id": "R5-09",
+    "level": 3,
+    "expression": "L^-2 T^-1 V",
+    "unit": "V/(m^2*s)",
+    "dim": {
+      "l": -2,
+      "t": -1,
+      "r": 0,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R5",
+    "note": "V-L-T"
+  },
+  {
+    "id": "R5-10",
+    "level": 3,
+    "expression": "L^-2 T V",
+    "unit": "s*V/m^2",
+    "dim": {
+      "l": -2,
+      "t": 1,
+      "r": 0,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R5",
+    "note": "V-L-T"
+  },
+  {
+    "id": "R5-11",
+    "level": 3,
+    "expression": "L^-3 T^-1 V",
+    "unit": "V/(m^3*s)",
+    "dim": {
+      "l": -3,
+      "t": -1,
+      "r": 0,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R5",
+    "note": "V-L-T"
+  },
+  {
+    "id": "R5-12",
+    "level": 3,
+    "expression": "L^-3 T V",
+    "unit": "s*V/m^3",
+    "dim": {
+      "l": -3,
+      "t": 1,
+      "r": 0,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R5",
+    "note": "V-L-T"
+  },
+  {
+    "id": "R5-13",
+    "level": 3,
+    "expression": "L T^-1 Wb",
+    "unit": "m*Wb/s",
+    "dim": {
+      "l": 1,
+      "t": -1,
+      "r": 0,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R5",
+    "note": "Wb-L-T"
+  },
+  {
+    "id": "R5-14",
+    "level": 3,
+    "expression": "L T Wb",
+    "unit": "m*s*Wb",
+    "dim": {
+      "l": 1,
+      "t": 1,
+      "r": 0,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R5",
+    "note": "Wb-L-T"
+  },
+  {
+    "id": "R5-15",
+    "level": 3,
+    "expression": "L^2 T^-1 Wb",
+    "unit": "m^2*Wb/s",
+    "dim": {
+      "l": 2,
+      "t": -1,
+      "r": 0,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R5",
+    "note": "Wb-L-T"
+  },
+  {
+    "id": "R5-16",
+    "level": 3,
+    "expression": "L^2 T Wb",
+    "unit": "m^2*s*Wb",
+    "dim": {
+      "l": 2,
+      "t": 1,
+      "r": 0,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R5",
+    "note": "Wb-L-T"
+  },
+  {
+    "id": "R5-17",
+    "level": 3,
+    "expression": "L^3 T^-1 Wb",
+    "unit": "m^3*Wb/s",
+    "dim": {
+      "l": 3,
+      "t": -1,
+      "r": 0,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "pseudovector",
+    "status": "standard",
+    "source": "R5",
+    "note": "Wb-L-T"
+  },
+  {
+    "id": "R5-18",
+    "level": 3,
+    "expression": "L^3 T Wb",
+    "unit": "m^3*s*Wb",
+    "dim": {
+      "l": 3,
+      "t": 1,
+      "r": 0,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R5",
+    "note": "Wb-L-T"
+  },
+  {
+    "id": "R5-19",
+    "level": 3,
+    "expression": "L^-1 T^-1 Wb",
+    "unit": "Wb/(m*s)",
+    "dim": {
+      "l": -1,
+      "t": -1,
+      "r": 0,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R5",
+    "note": "Wb-L-T"
+  },
+  {
+    "id": "R5-20",
+    "level": 3,
+    "expression": "L^-1 T Wb",
+    "unit": "s*Wb/m",
+    "dim": {
+      "l": -1,
+      "t": 1,
+      "r": 0,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R5",
+    "note": "Wb-L-T"
+  },
+  {
+    "id": "R5-21",
+    "level": 3,
+    "expression": "L^-2 T^-1 Wb",
+    "unit": "Wb/(m^2*s)",
+    "dim": {
+      "l": -2,
+      "t": -1,
+      "r": 0,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R5",
+    "note": "Wb-L-T"
+  },
+  {
+    "id": "R5-22",
+    "level": 3,
+    "expression": "L^-2 T Wb",
+    "unit": "s*Wb/m^2",
+    "dim": {
+      "l": -2,
+      "t": 1,
+      "r": 0,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R5",
+    "note": "Wb-L-T"
+  },
+  {
+    "id": "R5-23",
+    "level": 3,
+    "expression": "L^-3 T^-1 Wb",
+    "unit": "Wb/(m^3*s)",
+    "dim": {
+      "l": -3,
+      "t": -1,
+      "r": 0,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R5",
+    "note": "Wb-L-T"
+  },
+  {
+    "id": "R5-24",
+    "level": 3,
+    "expression": "L^-3 T Wb",
+    "unit": "s*Wb/m^3",
+    "dim": {
+      "l": -3,
+      "t": 1,
+      "r": 0,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R5",
+    "note": "Wb-L-T"
+  },
+  {
+    "id": "R5-25",
+    "level": 3,
+    "expression": "L T^-1 Gr",
+    "unit": "m*Gr/s",
+    "dim": {
+      "l": 1,
+      "t": -1,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R5",
+    "note": "Gr-L-T"
+  },
+  {
+    "id": "R5-26",
+    "level": 3,
+    "expression": "L T Gr",
+    "unit": "m*s*Gr",
+    "dim": {
+      "l": 1,
+      "t": 1,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R5",
+    "note": "Gr-L-T"
+  },
+  {
+    "id": "R5-27",
+    "level": 3,
+    "expression": "L^2 T^-1 Gr",
+    "unit": "m^2*Gr/s",
+    "dim": {
+      "l": 2,
+      "t": -1,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R5",
+    "note": "Gr-L-T"
+  },
+  {
+    "id": "R5-28",
+    "level": 3,
+    "expression": "L^2 T Gr",
+    "unit": "m^2*s*Gr",
+    "dim": {
+      "l": 2,
+      "t": 1,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "quantity",
+    "tensor": "vector",
+    "status": "standard",
+    "source": "R5",
+    "note": "Gr-L-T"
+  },
+  {
+    "id": "R5-29",
+    "level": 3,
+    "expression": "L^3 T^-1 Gr",
+    "unit": "m^3*Gr/s",
+    "dim": {
+      "l": 3,
+      "t": -1,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R5",
+    "note": "Gr-L-T"
+  },
+  {
+    "id": "R5-30",
+    "level": 3,
+    "expression": "L^3 T Gr",
+    "unit": "m^3*s*Gr",
+    "dim": {
+      "l": 3,
+      "t": 1,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R5",
+    "note": "Gr-L-T"
+  },
+  {
+    "id": "R5-31",
+    "level": 3,
+    "expression": "L^-1 T^-1 Gr",
+    "unit": "Gr/(m*s)",
+    "dim": {
+      "l": -1,
+      "t": -1,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R5",
+    "note": "Gr-L-T"
+  },
+  {
+    "id": "R5-32",
+    "level": 3,
+    "expression": "L^-1 T Gr",
+    "unit": "s*Gr/m",
+    "dim": {
+      "l": -1,
+      "t": 1,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R5",
+    "note": "Gr-L-T"
+  },
+  {
+    "id": "R5-33",
+    "level": 3,
+    "expression": "L^-2 T^-1 Gr",
+    "unit": "Gr/(m^2*s)",
+    "dim": {
+      "l": -2,
+      "t": -1,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R5",
+    "note": "Gr-L-T"
+  },
+  {
+    "id": "R5-34",
+    "level": 3,
+    "expression": "L^-2 T Gr",
+    "unit": "s*Gr/m^2",
+    "dim": {
+      "l": -2,
+      "t": 1,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R5",
+    "note": "Gr-L-T"
+  },
+  {
+    "id": "R5-35",
+    "level": 3,
+    "expression": "L^-3 T^-1 Gr",
+    "unit": "Gr/(m^3*s)",
+    "dim": {
+      "l": -3,
+      "t": -1,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R5",
+    "note": "Gr-L-T"
+  },
+  {
+    "id": "R5-36",
+    "level": 3,
+    "expression": "L^-3 T Gr",
+    "unit": "s*Gr/m^3",
+    "dim": {
+      "l": -3,
+      "t": 1,
+      "r": 0,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "quantity",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R5",
+    "note": "Gr-L-T"
+  },
+  {
+    "id": "R6-VR-1",
+    "level": 2,
+    "expression": "R V",
+    "unit": "rad*V",
+    "dim": {
+      "l": 0,
+      "t": 0,
+      "r": 1,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R6",
+    "note": "V-Fase"
+  },
+  {
+    "id": "R6-VR-2",
+    "level": 2,
+    "expression": "R^-1 V",
+    "unit": "V/rad",
+    "dim": {
+      "l": 0,
+      "t": 0,
+      "r": -1,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R6",
+    "note": "V-Fase"
+  },
+  {
+    "id": "R6-WbR-1",
+    "level": 2,
+    "expression": "R Wb",
+    "unit": "rad*Wb",
+    "dim": {
+      "l": 0,
+      "t": 0,
+      "r": 1,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R6",
+    "note": "Wb-Fase"
+  },
+  {
+    "id": "R6-WbR-2",
+    "level": 2,
+    "expression": "R^-1 Wb",
+    "unit": "Wb/rad",
+    "dim": {
+      "l": 0,
+      "t": 0,
+      "r": -1,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R6",
+    "note": "Wb-Fase"
+  },
+  {
+    "id": "R6-GrR-1",
+    "level": 2,
+    "expression": "R Gr",
+    "unit": "rad*Gr",
+    "dim": {
+      "l": 0,
+      "t": 0,
+      "r": 1,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R6",
+    "note": "Gr-Fase"
+  },
+  {
+    "id": "R6-GrR-2",
+    "level": 2,
+    "expression": "R^-1 Gr",
+    "unit": "Gr/rad",
+    "dim": {
+      "l": 0,
+      "t": 0,
+      "r": -1,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R6",
+    "note": "Gr-Fase"
+  },
+  {
+    "id": "R6-01",
+    "level": 3,
+    "expression": "T^-1 R V",
+    "unit": "rad*V/s",
+    "dim": {
+      "l": 0,
+      "t": -1,
+      "r": 1,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R6",
+    "note": "V-T-Fase"
+  },
+  {
+    "id": "R6-02",
+    "level": 3,
+    "expression": "T^-1 R^-1 V",
+    "unit": "V/(s*rad)",
+    "dim": {
+      "l": 0,
+      "t": -1,
+      "r": -1,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R6",
+    "note": "V-T-Fase"
+  },
+  {
+    "id": "R6-03",
+    "level": 3,
+    "expression": "T R V",
+    "unit": "s*rad*V",
+    "dim": {
+      "l": 0,
+      "t": 1,
+      "r": 1,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R6",
+    "note": "V-T-Fase"
+  },
+  {
+    "id": "R6-04",
+    "level": 3,
+    "expression": "T R^-1 V",
+    "unit": "s*V/rad",
+    "dim": {
+      "l": 0,
+      "t": 1,
+      "r": -1,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R6",
+    "note": "V-T-Fase"
+  },
+  {
+    "id": "R6-05",
+    "level": 3,
+    "expression": "T^-1 R Wb",
+    "unit": "rad*Wb/s",
+    "dim": {
+      "l": 0,
+      "t": -1,
+      "r": 1,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R6",
+    "note": "Wb-T-Fase"
+  },
+  {
+    "id": "R6-06",
+    "level": 3,
+    "expression": "T^-1 R^-1 Wb",
+    "unit": "Wb/(s*rad)",
+    "dim": {
+      "l": 0,
+      "t": -1,
+      "r": -1,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R6",
+    "note": "Wb-T-Fase"
+  },
+  {
+    "id": "R6-07",
+    "level": 3,
+    "expression": "T R Wb",
+    "unit": "s*rad*Wb",
+    "dim": {
+      "l": 0,
+      "t": 1,
+      "r": 1,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R6",
+    "note": "Wb-T-Fase"
+  },
+  {
+    "id": "R6-08",
+    "level": 3,
+    "expression": "T R^-1 Wb",
+    "unit": "s*Wb/rad",
+    "dim": {
+      "l": 0,
+      "t": 1,
+      "r": -1,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R6",
+    "note": "Wb-T-Fase"
+  },
+  {
+    "id": "R6-09",
+    "level": 3,
+    "expression": "T^-1 R Gr",
+    "unit": "rad*Gr/s",
+    "dim": {
+      "l": 0,
+      "t": -1,
+      "r": 1,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R6",
+    "note": "Gr-T-Fase"
+  },
+  {
+    "id": "R6-10",
+    "level": 3,
+    "expression": "T^-1 R^-1 Gr",
+    "unit": "Gr/(s*rad)",
+    "dim": {
+      "l": 0,
+      "t": -1,
+      "r": -1,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R6",
+    "note": "Gr-T-Fase"
+  },
+  {
+    "id": "R6-11",
+    "level": 3,
+    "expression": "T R Gr",
+    "unit": "s*rad*Gr",
+    "dim": {
+      "l": 0,
+      "t": 1,
+      "r": 1,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R6",
+    "note": "Gr-T-Fase"
+  },
+  {
+    "id": "R6-12",
+    "level": 3,
+    "expression": "T R^-1 Gr",
+    "unit": "s*Gr/rad",
+    "dim": {
+      "l": 0,
+      "t": 1,
+      "r": -1,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R6",
+    "note": "Gr-T-Fase"
+  },
+  {
+    "id": "R7-01",
+    "level": 3,
+    "expression": "L R V",
+    "unit": "m*rad*V",
+    "dim": {
+      "l": 1,
+      "t": 0,
+      "r": 1,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R7",
+    "note": "V-L-Fase"
+  },
+  {
+    "id": "R7-02",
+    "level": 3,
+    "expression": "L R^-1 V",
+    "unit": "m*V/rad",
+    "dim": {
+      "l": 1,
+      "t": 0,
+      "r": -1,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R7",
+    "note": "V-L-Fase"
+  },
+  {
+    "id": "R7-03",
+    "level": 3,
+    "expression": "L^2 R V",
+    "unit": "m^2*rad*V",
+    "dim": {
+      "l": 2,
+      "t": 0,
+      "r": 1,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R7",
+    "note": "V-L-Fase"
+  },
+  {
+    "id": "R7-04",
+    "level": 3,
+    "expression": "L^2 R^-1 V",
+    "unit": "m^2*V/rad",
+    "dim": {
+      "l": 2,
+      "t": 0,
+      "r": -1,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R7",
+    "note": "V-L-Fase"
+  },
+  {
+    "id": "R7-05",
+    "level": 3,
+    "expression": "L^3 R V",
+    "unit": "m^3*rad*V",
+    "dim": {
+      "l": 3,
+      "t": 0,
+      "r": 1,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R7",
+    "note": "V-L-Fase"
+  },
+  {
+    "id": "R7-06",
+    "level": 3,
+    "expression": "L^3 R^-1 V",
+    "unit": "m^3*V/rad",
+    "dim": {
+      "l": 3,
+      "t": 0,
+      "r": -1,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R7",
+    "note": "V-L-Fase"
+  },
+  {
+    "id": "R7-07",
+    "level": 3,
+    "expression": "L^-1 R V",
+    "unit": "rad*V/m",
+    "dim": {
+      "l": -1,
+      "t": 0,
+      "r": 1,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R7",
+    "note": "V-L-Fase"
+  },
+  {
+    "id": "R7-08",
+    "level": 3,
+    "expression": "L^-1 R^-1 V",
+    "unit": "V/(m*rad)",
+    "dim": {
+      "l": -1,
+      "t": 0,
+      "r": -1,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R7",
+    "note": "V-L-Fase"
+  },
+  {
+    "id": "R7-09",
+    "level": 3,
+    "expression": "L^-2 R V",
+    "unit": "rad*V/m^2",
+    "dim": {
+      "l": -2,
+      "t": 0,
+      "r": 1,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R7",
+    "note": "V-L-Fase"
+  },
+  {
+    "id": "R7-10",
+    "level": 3,
+    "expression": "L^-2 R^-1 V",
+    "unit": "V/(m^2*rad)",
+    "dim": {
+      "l": -2,
+      "t": 0,
+      "r": -1,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R7",
+    "note": "V-L-Fase"
+  },
+  {
+    "id": "R7-11",
+    "level": 3,
+    "expression": "L^-3 R V",
+    "unit": "rad*V/m^3",
+    "dim": {
+      "l": -3,
+      "t": 0,
+      "r": 1,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R7",
+    "note": "V-L-Fase"
+  },
+  {
+    "id": "R7-12",
+    "level": 3,
+    "expression": "L^-3 R^-1 V",
+    "unit": "V/(m^3*rad)",
+    "dim": {
+      "l": -3,
+      "t": 0,
+      "r": -1,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R7",
+    "note": "V-L-Fase"
+  },
+  {
+    "id": "R7-13",
+    "level": 3,
+    "expression": "L R Wb",
+    "unit": "m*rad*Wb",
+    "dim": {
+      "l": 1,
+      "t": 0,
+      "r": 1,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R7",
+    "note": "Wb-L-Fase"
+  },
+  {
+    "id": "R7-14",
+    "level": 3,
+    "expression": "L R^-1 Wb",
+    "unit": "m*Wb/rad",
+    "dim": {
+      "l": 1,
+      "t": 0,
+      "r": -1,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R7",
+    "note": "Wb-L-Fase"
+  },
+  {
+    "id": "R7-15",
+    "level": 3,
+    "expression": "L^2 R Wb",
+    "unit": "m^2*rad*Wb",
+    "dim": {
+      "l": 2,
+      "t": 0,
+      "r": 1,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R7",
+    "note": "Wb-L-Fase"
+  },
+  {
+    "id": "R7-16",
+    "level": 3,
+    "expression": "L^2 R^-1 Wb",
+    "unit": "m^2*Wb/rad",
+    "dim": {
+      "l": 2,
+      "t": 0,
+      "r": -1,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R7",
+    "note": "Wb-L-Fase"
+  },
+  {
+    "id": "R7-17",
+    "level": 3,
+    "expression": "L^3 R Wb",
+    "unit": "m^3*rad*Wb",
+    "dim": {
+      "l": 3,
+      "t": 0,
+      "r": 1,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R7",
+    "note": "Wb-L-Fase"
+  },
+  {
+    "id": "R7-18",
+    "level": 3,
+    "expression": "L^3 R^-1 Wb",
+    "unit": "m^3*Wb/rad",
+    "dim": {
+      "l": 3,
+      "t": 0,
+      "r": -1,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R7",
+    "note": "Wb-L-Fase"
+  },
+  {
+    "id": "R7-19",
+    "level": 3,
+    "expression": "L^-1 R Wb",
+    "unit": "rad*Wb/m",
+    "dim": {
+      "l": -1,
+      "t": 0,
+      "r": 1,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R7",
+    "note": "Wb-L-Fase"
+  },
+  {
+    "id": "R7-20",
+    "level": 3,
+    "expression": "L^-1 R^-1 Wb",
+    "unit": "Wb/(m*rad)",
+    "dim": {
+      "l": -1,
+      "t": 0,
+      "r": -1,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R7",
+    "note": "Wb-L-Fase"
+  },
+  {
+    "id": "R7-21",
+    "level": 3,
+    "expression": "L^-2 R Wb",
+    "unit": "rad*Wb/m^2",
+    "dim": {
+      "l": -2,
+      "t": 0,
+      "r": 1,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R7",
+    "note": "Wb-L-Fase"
+  },
+  {
+    "id": "R7-22",
+    "level": 3,
+    "expression": "L^-2 R^-1 Wb",
+    "unit": "Wb/(m^2*rad)",
+    "dim": {
+      "l": -2,
+      "t": 0,
+      "r": -1,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R7",
+    "note": "Wb-L-Fase"
+  },
+  {
+    "id": "R7-23",
+    "level": 3,
+    "expression": "L^-3 R Wb",
+    "unit": "rad*Wb/m^3",
+    "dim": {
+      "l": -3,
+      "t": 0,
+      "r": 1,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R7",
+    "note": "Wb-L-Fase"
+  },
+  {
+    "id": "R7-24",
+    "level": 3,
+    "expression": "L^-3 R^-1 Wb",
+    "unit": "Wb/(m^3*rad)",
+    "dim": {
+      "l": -3,
+      "t": 0,
+      "r": -1,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R7",
+    "note": "Wb-L-Fase"
+  },
+  {
+    "id": "R7-25",
+    "level": 3,
+    "expression": "L R Gr",
+    "unit": "m*rad*Gr",
+    "dim": {
+      "l": 1,
+      "t": 0,
+      "r": 1,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R7",
+    "note": "Gr-L-Fase"
+  },
+  {
+    "id": "R7-26",
+    "level": 3,
+    "expression": "L R^-1 Gr",
+    "unit": "m*Gr/rad",
+    "dim": {
+      "l": 1,
+      "t": 0,
+      "r": -1,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R7",
+    "note": "Gr-L-Fase"
+  },
+  {
+    "id": "R7-27",
+    "level": 3,
+    "expression": "L^2 R Gr",
+    "unit": "m^2*rad*Gr",
+    "dim": {
+      "l": 2,
+      "t": 0,
+      "r": 1,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R7",
+    "note": "Gr-L-Fase"
+  },
+  {
+    "id": "R7-28",
+    "level": 3,
+    "expression": "L^2 R^-1 Gr",
+    "unit": "m^2*Gr/rad",
+    "dim": {
+      "l": 2,
+      "t": 0,
+      "r": -1,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R7",
+    "note": "Gr-L-Fase"
+  },
+  {
+    "id": "R7-29",
+    "level": 3,
+    "expression": "L^3 R Gr",
+    "unit": "m^3*rad*Gr",
+    "dim": {
+      "l": 3,
+      "t": 0,
+      "r": 1,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R7",
+    "note": "Gr-L-Fase"
+  },
+  {
+    "id": "R7-30",
+    "level": 3,
+    "expression": "L^3 R^-1 Gr",
+    "unit": "m^3*Gr/rad",
+    "dim": {
+      "l": 3,
+      "t": 0,
+      "r": -1,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R7",
+    "note": "Gr-L-Fase"
+  },
+  {
+    "id": "R7-31",
+    "level": 3,
+    "expression": "L^-1 R Gr",
+    "unit": "rad*Gr/m",
+    "dim": {
+      "l": -1,
+      "t": 0,
+      "r": 1,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R7",
+    "note": "Gr-L-Fase"
+  },
+  {
+    "id": "R7-32",
+    "level": 3,
+    "expression": "L^-1 R^-1 Gr",
+    "unit": "Gr/(m*rad)",
+    "dim": {
+      "l": -1,
+      "t": 0,
+      "r": -1,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R7",
+    "note": "Gr-L-Fase"
+  },
+  {
+    "id": "R7-33",
+    "level": 3,
+    "expression": "L^-2 R Gr",
+    "unit": "rad*Gr/m^2",
+    "dim": {
+      "l": -2,
+      "t": 0,
+      "r": 1,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R7",
+    "note": "Gr-L-Fase"
+  },
+  {
+    "id": "R7-34",
+    "level": 3,
+    "expression": "L^-2 R^-1 Gr",
+    "unit": "Gr/(m^2*rad)",
+    "dim": {
+      "l": -2,
+      "t": 0,
+      "r": -1,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R7",
+    "note": "Gr-L-Fase"
+  },
+  {
+    "id": "R7-35",
+    "level": 3,
+    "expression": "L^-3 R Gr",
+    "unit": "rad*Gr/m^3",
+    "dim": {
+      "l": -3,
+      "t": 0,
+      "r": 1,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R7",
+    "note": "Gr-L-Fase"
+  },
+  {
+    "id": "R7-36",
+    "level": 3,
+    "expression": "L^-3 R^-1 Gr",
+    "unit": "Gr/(m^3*rad)",
+    "dim": {
+      "l": -3,
+      "t": 0,
+      "r": -1,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R7",
+    "note": "Gr-L-Fase"
+  },
+  {
+    "id": "R8-01",
+    "level": 4,
+    "expression": "L T^-1 R V",
+    "unit": "m*rad*V/s",
+    "dim": {
+      "l": 1,
+      "t": -1,
+      "r": 1,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "V-L-T-Fase"
+  },
+  {
+    "id": "R8-02",
+    "level": 4,
+    "expression": "L T^-1 R^-1 V",
+    "unit": "m*V/(s*rad)",
+    "dim": {
+      "l": 1,
+      "t": -1,
+      "r": -1,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "V-L-T-Fase"
+  },
+  {
+    "id": "R8-03",
+    "level": 4,
+    "expression": "L T R V",
+    "unit": "m*s*rad*V",
+    "dim": {
+      "l": 1,
+      "t": 1,
+      "r": 1,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "V-L-T-Fase"
+  },
+  {
+    "id": "R8-04",
+    "level": 4,
+    "expression": "L T R^-1 V",
+    "unit": "m*s*V/rad",
+    "dim": {
+      "l": 1,
+      "t": 1,
+      "r": -1,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "V-L-T-Fase"
+  },
+  {
+    "id": "R8-05",
+    "level": 4,
+    "expression": "L^2 T^-1 R V",
+    "unit": "m^2*rad*V/s",
+    "dim": {
+      "l": 2,
+      "t": -1,
+      "r": 1,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "V-L-T-Fase"
+  },
+  {
+    "id": "R8-06",
+    "level": 4,
+    "expression": "L^2 T^-1 R^-1 V",
+    "unit": "m^2*V/(s*rad)",
+    "dim": {
+      "l": 2,
+      "t": -1,
+      "r": -1,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "V-L-T-Fase"
+  },
+  {
+    "id": "R8-07",
+    "level": 4,
+    "expression": "L^2 T R V",
+    "unit": "m^2*s*rad*V",
+    "dim": {
+      "l": 2,
+      "t": 1,
+      "r": 1,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "V-L-T-Fase"
+  },
+  {
+    "id": "R8-08",
+    "level": 4,
+    "expression": "L^2 T R^-1 V",
+    "unit": "m^2*s*V/rad",
+    "dim": {
+      "l": 2,
+      "t": 1,
+      "r": -1,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "V-L-T-Fase"
+  },
+  {
+    "id": "R8-09",
+    "level": 4,
+    "expression": "L^3 T^-1 R V",
+    "unit": "m^3*rad*V/s",
+    "dim": {
+      "l": 3,
+      "t": -1,
+      "r": 1,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "V-L-T-Fase"
+  },
+  {
+    "id": "R8-10",
+    "level": 4,
+    "expression": "L^3 T^-1 R^-1 V",
+    "unit": "m^3*V/(s*rad)",
+    "dim": {
+      "l": 3,
+      "t": -1,
+      "r": -1,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "V-L-T-Fase"
+  },
+  {
+    "id": "R8-11",
+    "level": 4,
+    "expression": "L^3 T R V",
+    "unit": "m^3*s*rad*V",
+    "dim": {
+      "l": 3,
+      "t": 1,
+      "r": 1,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "V-L-T-Fase"
+  },
+  {
+    "id": "R8-12",
+    "level": 4,
+    "expression": "L^3 T R^-1 V",
+    "unit": "m^3*s*V/rad",
+    "dim": {
+      "l": 3,
+      "t": 1,
+      "r": -1,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "V-L-T-Fase"
+  },
+  {
+    "id": "R8-13",
+    "level": 4,
+    "expression": "L^-1 T^-1 R V",
+    "unit": "rad*V/(m*s)",
+    "dim": {
+      "l": -1,
+      "t": -1,
+      "r": 1,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "V-L-T-Fase"
+  },
+  {
+    "id": "R8-14",
+    "level": 4,
+    "expression": "L^-1 T^-1 R^-1 V",
+    "unit": "V/(m*s*rad)",
+    "dim": {
+      "l": -1,
+      "t": -1,
+      "r": -1,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "vector",
+    "status": "candidate",
+    "source": "R8",
+    "note": "V-L-T-Fase"
+  },
+  {
+    "id": "R8-15",
+    "level": 4,
+    "expression": "L^-1 T R V",
+    "unit": "s*rad*V/m",
+    "dim": {
+      "l": -1,
+      "t": 1,
+      "r": 1,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "V-L-T-Fase"
+  },
+  {
+    "id": "R8-16",
+    "level": 4,
+    "expression": "L^-1 T R^-1 V",
+    "unit": "s*V/(m*rad)",
+    "dim": {
+      "l": -1,
+      "t": 1,
+      "r": -1,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "V-L-T-Fase"
+  },
+  {
+    "id": "R8-17",
+    "level": 4,
+    "expression": "L^-2 T^-1 R V",
+    "unit": "rad*V/(m^2*s)",
+    "dim": {
+      "l": -2,
+      "t": -1,
+      "r": 1,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "V-L-T-Fase"
+  },
+  {
+    "id": "R8-18",
+    "level": 4,
+    "expression": "L^-2 T^-1 R^-1 V",
+    "unit": "V/(m^2*s*rad)",
+    "dim": {
+      "l": -2,
+      "t": -1,
+      "r": -1,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "V-L-T-Fase"
+  },
+  {
+    "id": "R8-19",
+    "level": 4,
+    "expression": "L^-2 T R V",
+    "unit": "s*rad*V/m^2",
+    "dim": {
+      "l": -2,
+      "t": 1,
+      "r": 1,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "V-L-T-Fase"
+  },
+  {
+    "id": "R8-20",
+    "level": 4,
+    "expression": "L^-2 T R^-1 V",
+    "unit": "s*V/(m^2*rad)",
+    "dim": {
+      "l": -2,
+      "t": 1,
+      "r": -1,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "V-L-T-Fase"
+  },
+  {
+    "id": "R8-21",
+    "level": 4,
+    "expression": "L^-3 T^-1 R V",
+    "unit": "rad*V/(m^3*s)",
+    "dim": {
+      "l": -3,
+      "t": -1,
+      "r": 1,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "V-L-T-Fase"
+  },
+  {
+    "id": "R8-22",
+    "level": 4,
+    "expression": "L^-3 T^-1 R^-1 V",
+    "unit": "V/(m^3*s*rad)",
+    "dim": {
+      "l": -3,
+      "t": -1,
+      "r": -1,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "V-L-T-Fase"
+  },
+  {
+    "id": "R8-23",
+    "level": 4,
+    "expression": "L^-3 T R V",
+    "unit": "s*rad*V/m^3",
+    "dim": {
+      "l": -3,
+      "t": 1,
+      "r": 1,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "V-L-T-Fase"
+  },
+  {
+    "id": "R8-24",
+    "level": 4,
+    "expression": "L^-3 T R^-1 V",
+    "unit": "s*V/(m^3*rad)",
+    "dim": {
+      "l": -3,
+      "t": 1,
+      "r": -1,
+      "v": 1,
+      "wb": 0,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "V-L-T-Fase"
+  },
+  {
+    "id": "R8-25",
+    "level": 4,
+    "expression": "L T^-1 R Wb",
+    "unit": "m*rad*Wb/s",
+    "dim": {
+      "l": 1,
+      "t": -1,
+      "r": 1,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "Wb-L-T-Fase"
+  },
+  {
+    "id": "R8-26",
+    "level": 4,
+    "expression": "L T^-1 R^-1 Wb",
+    "unit": "m*Wb/(s*rad)",
+    "dim": {
+      "l": 1,
+      "t": -1,
+      "r": -1,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "Wb-L-T-Fase"
+  },
+  {
+    "id": "R8-27",
+    "level": 4,
+    "expression": "L T R Wb",
+    "unit": "m*s*rad*Wb",
+    "dim": {
+      "l": 1,
+      "t": 1,
+      "r": 1,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "Wb-L-T-Fase"
+  },
+  {
+    "id": "R8-28",
+    "level": 4,
+    "expression": "L T R^-1 Wb",
+    "unit": "m*s*Wb/rad",
+    "dim": {
+      "l": 1,
+      "t": 1,
+      "r": -1,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "Wb-L-T-Fase"
+  },
+  {
+    "id": "R8-29",
+    "level": 4,
+    "expression": "L^2 T^-1 R Wb",
+    "unit": "m^2*rad*Wb/s",
+    "dim": {
+      "l": 2,
+      "t": -1,
+      "r": 1,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "Wb-L-T-Fase"
+  },
+  {
+    "id": "R8-30",
+    "level": 4,
+    "expression": "L^2 T^-1 R^-1 Wb",
+    "unit": "m^2*Wb/(s*rad)",
+    "dim": {
+      "l": 2,
+      "t": -1,
+      "r": -1,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "Wb-L-T-Fase"
+  },
+  {
+    "id": "R8-31",
+    "level": 4,
+    "expression": "L^2 T R Wb",
+    "unit": "m^2*s*rad*Wb",
+    "dim": {
+      "l": 2,
+      "t": 1,
+      "r": 1,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "Wb-L-T-Fase"
+  },
+  {
+    "id": "R8-32",
+    "level": 4,
+    "expression": "L^2 T R^-1 Wb",
+    "unit": "m^2*s*Wb/rad",
+    "dim": {
+      "l": 2,
+      "t": 1,
+      "r": -1,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "Wb-L-T-Fase"
+  },
+  {
+    "id": "R8-33",
+    "level": 4,
+    "expression": "L^3 T^-1 R Wb",
+    "unit": "m^3*rad*Wb/s",
+    "dim": {
+      "l": 3,
+      "t": -1,
+      "r": 1,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "Wb-L-T-Fase"
+  },
+  {
+    "id": "R8-34",
+    "level": 4,
+    "expression": "L^3 T^-1 R^-1 Wb",
+    "unit": "m^3*Wb/(s*rad)",
+    "dim": {
+      "l": 3,
+      "t": -1,
+      "r": -1,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "Wb-L-T-Fase"
+  },
+  {
+    "id": "R8-35",
+    "level": 4,
+    "expression": "L^3 T R Wb",
+    "unit": "m^3*s*rad*Wb",
+    "dim": {
+      "l": 3,
+      "t": 1,
+      "r": 1,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "Wb-L-T-Fase"
+  },
+  {
+    "id": "R8-36",
+    "level": 4,
+    "expression": "L^3 T R^-1 Wb",
+    "unit": "m^3*s*Wb/rad",
+    "dim": {
+      "l": 3,
+      "t": 1,
+      "r": -1,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "Wb-L-T-Fase"
+  },
+  {
+    "id": "R8-37",
+    "level": 4,
+    "expression": "L^-1 T^-1 R Wb",
+    "unit": "rad*Wb/(m*s)",
+    "dim": {
+      "l": -1,
+      "t": -1,
+      "r": 1,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "Wb-L-T-Fase"
+  },
+  {
+    "id": "R8-38",
+    "level": 4,
+    "expression": "L^-1 T^-1 R^-1 Wb",
+    "unit": "Wb/(m*s*rad)",
+    "dim": {
+      "l": -1,
+      "t": -1,
+      "r": -1,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "Wb-L-T-Fase"
+  },
+  {
+    "id": "R8-39",
+    "level": 4,
+    "expression": "L^-1 T R Wb",
+    "unit": "s*rad*Wb/m",
+    "dim": {
+      "l": -1,
+      "t": 1,
+      "r": 1,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "Wb-L-T-Fase"
+  },
+  {
+    "id": "R8-40",
+    "level": 4,
+    "expression": "L^-1 T R^-1 Wb",
+    "unit": "s*Wb/(m*rad)",
+    "dim": {
+      "l": -1,
+      "t": 1,
+      "r": -1,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "Wb-L-T-Fase"
+  },
+  {
+    "id": "R8-41",
+    "level": 4,
+    "expression": "L^-2 T^-1 R Wb",
+    "unit": "rad*Wb/(m^2*s)",
+    "dim": {
+      "l": -2,
+      "t": -1,
+      "r": 1,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "Wb-L-T-Fase"
+  },
+  {
+    "id": "R8-42",
+    "level": 4,
+    "expression": "L^-2 T^-1 R^-1 Wb",
+    "unit": "Wb/(m^2*s*rad)",
+    "dim": {
+      "l": -2,
+      "t": -1,
+      "r": -1,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "pseudovector",
+    "status": "candidate",
+    "source": "R8",
+    "note": "Wb-L-T-Fase"
+  },
+  {
+    "id": "R8-43",
+    "level": 4,
+    "expression": "L^-2 T R Wb",
+    "unit": "s*rad*Wb/m^2",
+    "dim": {
+      "l": -2,
+      "t": 1,
+      "r": 1,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "Wb-L-T-Fase"
+  },
+  {
+    "id": "R8-44",
+    "level": 4,
+    "expression": "L^-2 T R^-1 Wb",
+    "unit": "s*Wb/(m^2*rad)",
+    "dim": {
+      "l": -2,
+      "t": 1,
+      "r": -1,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "Wb-L-T-Fase"
+  },
+  {
+    "id": "R8-45",
+    "level": 4,
+    "expression": "L^-3 T^-1 R Wb",
+    "unit": "rad*Wb/(m^3*s)",
+    "dim": {
+      "l": -3,
+      "t": -1,
+      "r": 1,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "Wb-L-T-Fase"
+  },
+  {
+    "id": "R8-46",
+    "level": 4,
+    "expression": "L^-3 T^-1 R^-1 Wb",
+    "unit": "Wb/(m^3*s*rad)",
+    "dim": {
+      "l": -3,
+      "t": -1,
+      "r": -1,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "Wb-L-T-Fase"
+  },
+  {
+    "id": "R8-47",
+    "level": 4,
+    "expression": "L^-3 T R Wb",
+    "unit": "s*rad*Wb/m^3",
+    "dim": {
+      "l": -3,
+      "t": 1,
+      "r": 1,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "Wb-L-T-Fase"
+  },
+  {
+    "id": "R8-48",
+    "level": 4,
+    "expression": "L^-3 T R^-1 Wb",
+    "unit": "s*Wb/(m^3*rad)",
+    "dim": {
+      "l": -3,
+      "t": 1,
+      "r": -1,
+      "v": 0,
+      "wb": 1,
+      "gr": 0
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "Wb-L-T-Fase"
+  },
+  {
+    "id": "R8-49",
+    "level": 4,
+    "expression": "L T^-1 R Gr",
+    "unit": "m*rad*Gr/s",
+    "dim": {
+      "l": 1,
+      "t": -1,
+      "r": 1,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "Gr-L-T-Fase"
+  },
+  {
+    "id": "R8-50",
+    "level": 4,
+    "expression": "L T^-1 R^-1 Gr",
+    "unit": "m*Gr/(s*rad)",
+    "dim": {
+      "l": 1,
+      "t": -1,
+      "r": -1,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "Gr-L-T-Fase"
+  },
+  {
+    "id": "R8-51",
+    "level": 4,
+    "expression": "L T R Gr",
+    "unit": "m*s*rad*Gr",
+    "dim": {
+      "l": 1,
+      "t": 1,
+      "r": 1,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "Gr-L-T-Fase"
+  },
+  {
+    "id": "R8-52",
+    "level": 4,
+    "expression": "L T R^-1 Gr",
+    "unit": "m*s*Gr/rad",
+    "dim": {
+      "l": 1,
+      "t": 1,
+      "r": -1,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "Gr-L-T-Fase"
+  },
+  {
+    "id": "R8-53",
+    "level": 4,
+    "expression": "L^2 T^-1 R Gr",
+    "unit": "m^2*rad*Gr/s",
+    "dim": {
+      "l": 2,
+      "t": -1,
+      "r": 1,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "Gr-L-T-Fase"
+  },
+  {
+    "id": "R8-54",
+    "level": 4,
+    "expression": "L^2 T^-1 R^-1 Gr",
+    "unit": "m^2*Gr/(s*rad)",
+    "dim": {
+      "l": 2,
+      "t": -1,
+      "r": -1,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "Gr-L-T-Fase"
+  },
+  {
+    "id": "R8-55",
+    "level": 4,
+    "expression": "L^2 T R Gr",
+    "unit": "m^2*s*rad*Gr",
+    "dim": {
+      "l": 2,
+      "t": 1,
+      "r": 1,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "Gr-L-T-Fase"
+  },
+  {
+    "id": "R8-56",
+    "level": 4,
+    "expression": "L^2 T R^-1 Gr",
+    "unit": "m^2*s*Gr/rad",
+    "dim": {
+      "l": 2,
+      "t": 1,
+      "r": -1,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "Gr-L-T-Fase"
+  },
+  {
+    "id": "R8-57",
+    "level": 4,
+    "expression": "L^3 T^-1 R Gr",
+    "unit": "m^3*rad*Gr/s",
+    "dim": {
+      "l": 3,
+      "t": -1,
+      "r": 1,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "Gr-L-T-Fase"
+  },
+  {
+    "id": "R8-58",
+    "level": 4,
+    "expression": "L^3 T^-1 R^-1 Gr",
+    "unit": "m^3*Gr/(s*rad)",
+    "dim": {
+      "l": 3,
+      "t": -1,
+      "r": -1,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "Gr-L-T-Fase"
+  },
+  {
+    "id": "R8-59",
+    "level": 4,
+    "expression": "L^3 T R Gr",
+    "unit": "m^3*s*rad*Gr",
+    "dim": {
+      "l": 3,
+      "t": 1,
+      "r": 1,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "Gr-L-T-Fase"
+  },
+  {
+    "id": "R8-60",
+    "level": 4,
+    "expression": "L^3 T R^-1 Gr",
+    "unit": "m^3*s*Gr/rad",
+    "dim": {
+      "l": 3,
+      "t": 1,
+      "r": -1,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "Gr-L-T-Fase"
+  },
+  {
+    "id": "R8-61",
+    "level": 4,
+    "expression": "L^-1 T^-1 R Gr",
+    "unit": "rad*Gr/(m*s)",
+    "dim": {
+      "l": -1,
+      "t": -1,
+      "r": 1,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "Gr-L-T-Fase"
+  },
+  {
+    "id": "R8-62",
+    "level": 4,
+    "expression": "L^-1 T^-1 R^-1 Gr",
+    "unit": "Gr/(m*s*rad)",
+    "dim": {
+      "l": -1,
+      "t": -1,
+      "r": -1,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "candidate",
+    "tensor": "vector",
+    "status": "candidate",
+    "source": "R8",
+    "note": "Gr-L-T-Fase"
+  },
+  {
+    "id": "R8-63",
+    "level": 4,
+    "expression": "L^-1 T R Gr",
+    "unit": "s*rad*Gr/m",
+    "dim": {
+      "l": -1,
+      "t": 1,
+      "r": 1,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "Gr-L-T-Fase"
+  },
+  {
+    "id": "R8-64",
+    "level": 4,
+    "expression": "L^-1 T R^-1 Gr",
+    "unit": "s*Gr/(m*rad)",
+    "dim": {
+      "l": -1,
+      "t": 1,
+      "r": -1,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "Gr-L-T-Fase"
+  },
+  {
+    "id": "R8-65",
+    "level": 4,
+    "expression": "L^-2 T^-1 R Gr",
+    "unit": "rad*Gr/(m^2*s)",
+    "dim": {
+      "l": -2,
+      "t": -1,
+      "r": 1,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "Gr-L-T-Fase"
+  },
+  {
+    "id": "R8-66",
+    "level": 4,
+    "expression": "L^-2 T^-1 R^-1 Gr",
+    "unit": "Gr/(m^2*s*rad)",
+    "dim": {
+      "l": -2,
+      "t": -1,
+      "r": -1,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "Gr-L-T-Fase"
+  },
+  {
+    "id": "R8-67",
+    "level": 4,
+    "expression": "L^-2 T R Gr",
+    "unit": "s*rad*Gr/m^2",
+    "dim": {
+      "l": -2,
+      "t": 1,
+      "r": 1,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "Gr-L-T-Fase"
+  },
+  {
+    "id": "R8-68",
+    "level": 4,
+    "expression": "L^-2 T R^-1 Gr",
+    "unit": "s*Gr/(m^2*rad)",
+    "dim": {
+      "l": -2,
+      "t": 1,
+      "r": -1,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "Gr-L-T-Fase"
+  },
+  {
+    "id": "R8-69",
+    "level": 4,
+    "expression": "L^-3 T^-1 R Gr",
+    "unit": "rad*Gr/(m^3*s)",
+    "dim": {
+      "l": -3,
+      "t": -1,
+      "r": 1,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "Gr-L-T-Fase"
+  },
+  {
+    "id": "R8-70",
+    "level": 4,
+    "expression": "L^-3 T^-1 R^-1 Gr",
+    "unit": "Gr/(m^3*s*rad)",
+    "dim": {
+      "l": -3,
+      "t": -1,
+      "r": -1,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "Gr-L-T-Fase"
+  },
+  {
+    "id": "R8-71",
+    "level": 4,
+    "expression": "L^-3 T R Gr",
+    "unit": "s*rad*Gr/m^3",
+    "dim": {
+      "l": -3,
+      "t": 1,
+      "r": 1,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "Gr-L-T-Fase"
+  },
+  {
+    "id": "R8-72",
+    "level": 4,
+    "expression": "L^-3 T R^-1 Gr",
+    "unit": "s*Gr/(m^3*rad)",
+    "dim": {
+      "l": -3,
+      "t": 1,
+      "r": -1,
+      "v": 0,
+      "wb": 0,
+      "gr": 1
+    },
+    "kind": "candidate",
+    "tensor": "scalar",
+    "status": "candidate",
+    "source": "R8",
+    "note": "Gr-L-T-Fase"
+  }
+]

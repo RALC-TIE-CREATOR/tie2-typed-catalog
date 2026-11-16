@@ -1,6 +1,6 @@
 # lean-tie2 — prototipo Lean 4
 
-Proyecto mínimo para formalizar las reglas de admisibilidad de TIE 2 y el catálogo de 50 entradas.
+Proyecto mínimo para formalizar las reglas de admisibilidad de TIE 2 y el catálogo completo de 254 entradas.
 
 ## Requisitos
 
@@ -17,19 +17,19 @@ lake build
 Resultado esperado:
 
 - `TIE2.Dimensions`, `TIE2.Catalog`, `TIE2.Examples` compilan.
-- `catalog50.length = 50`.
+- `catalog254.length = 254`.
 - Todas las entradas pasan `admissibleB`.
 - `T⁻²`, `L⁴` y `R²` se rechazan.
 
 ## Estructura
 
 - `TIE2/Dimensions.lean` — `Dim`, `Kind`, `Tensor`, `Status`, `Entry`, `admissibleB`.
-- `TIE2/Catalog.lean` — lista `catalog50` generada desde `catalog50.json`.
+- `TIE2/Catalog.lean` — lista `catalog254` generada desde `catalog254.json`.
 - `TIE2/Examples.lean` — pruebas de longitud, admisibilidad y rechazo.
 - `TIE2.lean` — importa los módulos.
 
 ## Limitaciones
 
-- 50 de 254 entradas.
-- R-01–R-12 parcialmente codificadas: la admisibilidad dimensional está; las reglas de suma/tipo/clase se añadirán en la siguiente fase.
+- Las 254 entradas están codificadas a nivel dimensional.
+- R-01–R-12 parcialmente codificadas: falta la regla de suma/tipo/clase.
 - No hay benchmark todavía.

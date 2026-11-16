@@ -13,27 +13,22 @@ Una cantidad tiene un vector `(L,T,R,V,Wb,Gr)`:
 
 `TIE2/Dimensions.lean` define `Dim`, `admissibleB`, `Kind`, `Tensor`, `Status` y `Entry`.
 
-`admissibleB` rechaza:
-
-- `T⁻²`, `T⁻³`;
-- `L⁴`;
-- `R²`;
-- cualquier autopotencia de `V`, `Wb`, `Gr`.
+`admissibleB` rechaza `T⁻²`, `T⁻³`, `L⁴`, `R²` y autopotencias de `V`, `Wb`, `Gr`.
 
 ## 3. Catálogo
 
-`TIE2/Catalog.lean` contiene `catalog50`, generado desde `data/catalog50.json`.
+`TIE2/Catalog.lean` contiene `catalog254`, generado desde `data/catalog254.json`.
 
 ## 4. Pruebas
 
 `TIE2/Examples.lean` demuestra:
 
-- `catalog50.length = 50`;
+- `catalog254.length = 254`;
 - todas las entradas son admisibles;
 - `T⁻²`, `L⁴` y `R²` se rechazan.
 
 ## 5. Límites
 
-- 50 de 254 entradas.
+- 254 de 254 entradas codificadas a nivel dimensional.
 - R-01–R-12 parcialmente codificadas: la admisibilidad dimensional está en Lean; las reglas de suma/tipo/clase son el siguiente paso.
 - Todavía no hay benchmark.

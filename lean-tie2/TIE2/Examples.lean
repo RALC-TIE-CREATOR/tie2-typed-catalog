@@ -10,7 +10,7 @@ example : dimTMinus2.admissibleB = false := by native_decide
 example : dimL4.admissibleB = false := by native_decide
 example : dimR2.admissibleB = false := by native_decide
 
-example : catalog50.length = 50 := by native_decide
-example : catalog50.all (fun e => e.dim.admissibleB) = true := by native_decide
+example : catalog254.length = 254 := by native_decide
+example : catalog254.all (fun e => e.dim.admissibleB) = true := by native_decide
 
 end TIE2

@@ -1,8 +1,10 @@
 # TIE 2 — Typed Catalog of Physical Quantities
 
-A prototype for a **typed, machine-checkable catalog of physical quantities**. It formalizes the admissibility rules of TIE 2 in Lean 4 and provides a 50-entry dataset drawn from a 254-entry combinatorial catalog.
+A prototype for a **typed, machine-checkable catalog of physical quantities**. It formalizes the admissibility rules of TIE 2 in Lean 4 and provides the full 254-entry catalog.
 
-**Status:** prototype. 50/254 entries; Lean build passes; `T⁻²`, `L⁴`, and `R²` are rejected. This is not a validated physical theory.
+**Status:** prototype. 254/254 entries; Lean build passes; `T⁻²`, `L⁴`, and `R²` are rejected. This is not a validated physical theory.
+
+**Repository:** https://github.com/RALC-TIE-CREATOR/tie2-typed-catalog
 
 [Español](README.es.md)
 
@@ -21,7 +23,7 @@ This repository tests whether that grammar can be formalized and verified.
 ## What is here
 
 ```
-data/                 50-entry dataset (JSON + CSV)
+data/                 254-entry dataset (JSON + CSV)
 lean-tie2/            Lean 4 project
 docs/en/              English documentation
 docs/es/              Spanish documentation
@@ -34,25 +36,27 @@ cd lean-tie2
 lake build
 ```
 
-Expected: `TIE2.Dimensions`, `TIE2.Catalog`, `TIE2.Examples` compile; `catalog50.length = 50`; all entries pass `admissibleB`; `T⁻²`, `L⁴`, `R²` fail.
+Expected: `TIE2.Dimensions`, `TIE2.Catalog`, `TIE2.Examples` compile; `catalog254.length = 254`; all entries pass `admissibleB`; `T⁻²`, `L⁴`, `R²` fail.
 
 ## Dataset
 
-`data/catalog50.json` and `data/catalog50.csv` contain 50 entries:
+`data/catalog254.json` and `data/catalog254.csv` contain 254 entries:
 
 | Block | Entries |
 |---|---|
 | Level 1 units | 16 |
-| GET standard/label | 14 |
-| R5 standard/bridge | 10 |
-| Phase candidates (R6–R8) | 10 |
+| R4 GET | 52 |
+| R5 S,T,Fi | 60 |
+| R6 T,F,Fi | 18 |
+| R7 S,F,Fi | 36 |
+| R8 S,T,F,Fi | 72 |
 
 Each entry declares: id, level, expression, unit, dimension vector `L,T,R,V,Wb,Gr`, kind, tensor type, status, source, and note.
 
 ## Verification
 
-- JSON: 50 entries.
-- CSV: 50 rows.
+- JSON: 254 entries.
+- CSV: 254 rows.
 - Lean 4.34.0-rc2: `lake build` — 6 jobs, exit 0.
 - Rejection tests: `T⁻²`, `L⁴`, `R²`.
 
@@ -77,3 +81,4 @@ This repository supports a Letter of Intent for Anthropic's AI for Science progr
 ## Citation
 
 See `CITATION.cff`.
+

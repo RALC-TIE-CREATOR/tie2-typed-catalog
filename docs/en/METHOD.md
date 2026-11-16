@@ -13,27 +13,22 @@ A quantity has a dimension vector `(L,T,R,V,Wb,Gr)`:
 
 `TIE2/Dimensions.lean` defines `Dim`, `admissibleB`, `Kind`, `Tensor`, `Status`, and `Entry`.
 
-`admissibleB` rejects:
-
-- `T⁻²`, `T⁻³`;
-- `L⁴`;
-- `R²`;
-- any self-power of `V`, `Wb`, `Gr`.
+`admissibleB` rejects `T⁻²`, `T⁻³`, `L⁴`, `R²`, and self-powers of `V`, `Wb`, `Gr`.
 
 ## 3. Catalog
 
-`TIE2/Catalog.lean` contains `catalog50`, generated from `data/catalog50.json`.
+`TIE2/Catalog.lean` contains `catalog254`, generated from `data/catalog254.json`.
 
 ## 4. Tests
 
 `TIE2/Examples.lean` proves:
 
-- `catalog50.length = 50`;
+- `catalog254.length = 254`;
 - all entries are admissible;
 - `T⁻²`, `L⁴`, and `R²` are rejected.
 
 ## 5. Limits
 
-- 50 of 254 entries.
-- R-01–R-12 partially encoded: dimensional admissibility is in Lean; sum/type/class rules are next.
+- 254 of 254 entries are encoded at the dimensional level.
+- R-01–R-12 are partially encoded: dimensional admissibility is in Lean; sum/type/class rules are the next step.
 - No benchmark yet.

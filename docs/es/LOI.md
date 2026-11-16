@@ -1,4 +1,4 @@
-# Carta de intención — Anthropic AI for Science — v1.0
+# Carta de intención — Anthropic AI for Science — v2.0
 
 **Fecha:** 2026-11-16
 **Solicitante:** Rubén Antonio Lecona Curto (R@LC)
@@ -23,11 +23,11 @@ Este proyecto formaliza y verifica ese catálogo en **Lean 4**, usando Claude co
 
 | Elemento | Estado |
 |---|---|
-| Dataset de 50 entradas | `catalog50.json` / `catalog50.csv` |
+| Dataset de 254 entradas | `catalog254.json` / `catalog254.csv` |
 | Proyecto Lean 4 | `lean-tie2/` con `lakefile.lean` y `lean-toolchain` |
 | Reglas de admisibilidad | `L ∈ [-3,3]`; `T,R,V,Wb,Gr ∈ {-1,0,1}` |
 | Pruebas de rechazo | `T⁻²`, `L⁴`, `R²` → `false` |
-| Catálogo Lean | `catalog50.length = 50`; todas admisibles |
+| Catálogo Lean | `catalog254.length = 254`; todas admisibles |
 | Compilación | `lake build` — 6 jobs, exitoso |
 
 El prototipo demuestra que la gramática es formalizable y que el verificador rechaza las unidades prohibidas.
@@ -78,9 +78,9 @@ El prototipo demuestra que la gramática es formalizable y que el verificador re
 
 | Mes | Hito |
 |---|---|
-| 1 | Cerrar R-01–R-06; 50 entradas (ya iniciado) |
-| 2 | R-07–R-12; 100 entradas |
-| 3 | 254 entradas; benchmark inicial |
+| 1 | R-01–R-06; 254 entradas (ya iniciado) |
+| 2 | R-07–R-12; reglas de tipo/clase |
+| 3 | Benchmark inicial de 200–500 enunciados |
 | 4 | Pruebas asistidas por Claude; benchmark ampliado |
 | 5 | Preprint y revisión externa |
 | 6 | Repositorio final, CI y solicitud de publicación |
@@ -110,7 +110,7 @@ El prototipo demuestra que la gramática es formalizable y que el verificador re
 
 | Riesgo | Mitigación |
 |---|---|
-| El catálogo es demasiado amplio | Hitos de 50 → 100 → 254; empezar por R-01–R-06 |
+| El catálogo es demasiado amplio | 254 entradas ya codificadas; subconjunto de 50 como regresión |
 | Claude alucina pruebas | Lean verifica; revisión humana por muestra |
 | Falta de afiliación | Buscar PI académico o institución sin fines de lucro |
 | Teoría no validada empíricamente | Se presenta como formalización, no como teoría confirmada |
@@ -122,7 +122,7 @@ El prototipo demuestra que la gramática es formalizable y que el verificador re
 - **PI:** [pendiente]
 - **Institución:** [pendiente]
 - **Colaboradores:** [pendiente]
-- **Repositorio:** [pendiente de URL pública]
+- **Repositorio:** https://github.com/RALC-TIE-CREATOR/tie2-typed-catalog
 
 ---
 
@@ -137,4 +137,5 @@ El prototipo demuestra que la gramática es formalizable y que el verificador re
 ## 13. Registro de cambios
 
 - **v0.1 (2026-11-16):** borrador inicial.
-- **v1.0 (2026-11-16):** prototipo Lean de 50 entradas compilado; métricas y plan de 6 meses.
+- **v2.0 (2026-11-16):** catálogo completo de 254 entradas codificado y compilado; repo público; métricas y plan de 6 meses.
+
